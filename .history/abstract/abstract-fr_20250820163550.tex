@@ -1,0 +1,32 @@
+\thispagestyle{empty}
+\vspace*{\fill}
+
+\begin{center}
+{\Large \textbf{Résumé}}
+\end{center}
+
+\vspace{1cm}
+
+Cette recherche compare deux méthodes populaires pour déployer des applications logicielles : GitOps et CI/CD traditionnel. L'objectif est de comprendre quelle méthode fonctionne le mieux dans différentes situations.
+
+Pour effectuer cette comparaison, nous avons construit TechMart, un vrai site de commerce électronique avec quatre services séparés (gestion des utilisateurs, catalogue de produits, panier d'achat, et traitement des commandes). Chaque service utilise différents langages de programmation comme Python, Node.js et Java, et stocke les données dans différentes bases de données.
+
+La plateforme fonctionne sur plusieurs fournisseurs de cloud - certains services sur Google Cloud et d'autres sur Heroku. Cette configuration nous permet de tester les deux méthodes de déploiement dans des conditions réalistes.
+
+GitOps utilise un outil appelé ArgoCD qui déploie automatiquement les applications en surveillant les changements de code dans les dépôts Git. Quand les développeurs mettent à jour le code, le système applique automatiquement ces changements sans intervention humaine.
+
+Le CI/CD traditionnel utilise GitHub Actions pour construire et déployer les applications étape par étape, nécessitant souvent une approbation manuelle avant le déploiement en production.
+
+Nous avons conçu une approche de test systématique pour comparer équitablement les deux méthodes. Cela inclut la mesure des temps de construction, la vitesse de déploiement, et la façon dont chaque méthode gère les pannes.
+
+L'étude montre que les deux méthodes ont leurs forces. GitOps offre une meilleure automatisation et une récupération plus rapide des erreurs, tandis que le CI/CD traditionnel propose des temps de construction plus rapides et une configuration plus simple.
+
+Plus important encore, nous avons prouvé que les deux méthodes peuvent fonctionner ensemble dans la même application. Cela signifie que les entreprises n'ont pas besoin de choisir une seule méthode - elles peuvent utiliser la meilleure méthode pour chaque service selon leurs besoins spécifiques.
+
+Cette recherche aide les équipes de développement à prendre de meilleures décisions sur quelle méthode de déploiement utiliser pour leurs projets.
+
+
+\textbf{Mots-clés :} GitOps, CI/CD Traditionnel, Déploiement Logiciel, Cloud Computing, Microservices, TechMart, ArgoCD
+
+\vspace*{\fill}
+\newpage

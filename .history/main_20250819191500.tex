@@ -1,0 +1,155 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,french]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{appendix}
+\usepackage{pdfpages}
+\usepackage{afterpage}
+
+% Unicode character handling - Fix for compilation errors
+\DeclareUnicodeCharacter{221E}{\ensuremath{\infty}}
+\DeclareUnicodeCharacter{03B1}{\ensuremath{\alpha}}
+\DeclareUnicodeCharacter{03B2}{\ensuremath{\beta}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2190}{\ensuremath{\leftarrow}}
+\DeclareUnicodeCharacter{2194}{\ensuremath{\leftrightarrow}}
+
+% Page geometry
+\geometry{
+    left=3cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    includeheadfoot
+}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Code listing settings
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{green!50!black},
+    frame=single,
+    keywordstyle=\color{blue},
+    language=bash,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    stringstyle=\color{red},
+    tabsize=2,
+    xleftmargin=0.5cm,
+    xrightmargin=0.5cm
+}
+
+% Custom colors for GitOps theme
+\definecolor{gitopsblue}{RGB}{0,123,191}
+\definecolor{gitopsgreen}{RGB}{40,167,69}
+\definecolor{gitorange}{RGB}{255,123,0}
+\definecolor{gitred}{RGB}{220,53,69}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=gitopsblue,
+    filecolor=magenta,
+    urlcolor=gitopsblue,
+    pdftitle={PFE: GitOps Implementation Analysis - TechMart Platform},
+    pdfauthor={Kousaila Benhamouche},
+    pdfsubject={Master's Thesis - Information Systems Engineering},
+    pdfkeywords={GitOps, CI/CD, DevOps, Microservices, Multi-Cloud}
+}
+
+% Title page information
+\title{
+    \textbf{\Huge From Design to Production: Comprehensive Implementation and Performance Analysis of GitOps vs Traditional CI/CD Using Multi-Cloud Microservices Architecture}\\[0.5cm]
+    \Large TechMart Platform Implementation and Empirical Validation\\[1cm]
+    \large Projet de Fin d'Études (PFE)\\
+    Master en Ingénierie des Systèmes d'Information
+}
+
+\author{
+    \textbf{Kousaila Benhamouche}\\[0.3cm]
+    École Supérieure d'Informatique (ESI-SBA)\\
+    Sidi Bel Abbès, Algeria\\[0.5cm]
+    \texttt{k.benhamouche@esi-sba.dz}\\
+    \texttt{https://github.com/kousaila502}
+}
+
+\date{Academic Year 2024-2025\\August 2025}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+% Abstract
+\input{abstract/abstract}
+
+% Acknowledgments
+\input{acknowledgments/acknowledgments}
+
+% Table of contents
+\tableofcontents
+
+% List of figures (will be populated as we add figures)
+\listoffigures
+
+% List of tables (will be populated as we add tables)
+\listoftables
+
+% Main content
+\input{chapters/01-introduction}
+\input{chapters/01-introduction}
+\input{chapters/02-background}
+\input{chapters/03-requirements}
+\input{chapters/04-design}
+\input{chapters/05-implementation}
+\input{chapters/06-results}
+\input{chapters/07-conclusion}
+\input{chapters/appendices}
+
+% Bibliography
+\bibliographystyle{plain}
+\bibliography{references/references}
+
+% Appendices
+\begin{appendices}
+\input{appendices/appendix-a-complexity-data}
+\input{appendices/appendix-b-statistical-analysis}
+\input{appendices/appendix-c-infrastructure-config}
+\input{appendices/appendix-d-monitoring-dashboards}
+\end{appendices}
+
+\end{document}

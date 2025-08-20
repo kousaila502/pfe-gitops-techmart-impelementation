@@ -1,0 +1,96 @@
+% figures/research-methodology.tex
+% Two-Phase Research Methodology Flowchart
+
+\begin{tikzpicture}[
+    node distance=2cm,
+    box/.style={rectangle, draw, fill=blue!10, text width=3cm, text centered, minimum height=1.5cm, rounded corners=3pt},
+    phase/.style={rectangle, draw, fill=gitopsgreen!20, text width=4cm, text centered, minimum height=2cm, rounded corners=5pt, thick},
+    arrow/.style={->, thick, gitopsblue}
+]
+
+% Title
+\node[above] at (0,6) {\Large \textbf{Two-Phase Research Methodology}};
+
+% Phase 1
+\node[phase] (phase1) at (-4,4) {
+    \textbf{Phase 1}\\
+    \textbf{Single-Service Analysis}\\
+    \small August 2-3, 2025\\
+    \small 20 test scenarios
+};
+
+% Phase 1 components (spread out horizontally)
+\node[box] (p1baseline) at (-7,1.5) {Baseline\\Establishment};
+\node[box] (p1control) at (-4,1.5) {Controlled\\Comparison};
+\node[box] (p1failure) at (-1,1.5) {Failure\\Testing};
+
+% Phase 2
+\node[phase] (phase2) at (4,4) {
+    \textbf{Phase 2}\\
+    \textbf{Multi-Service Analysis}\\
+    \small August 15-16, 2025\\
+    \small 47 experiments
+};
+
+% Phase 2 components (spread out horizontally)
+\node[box] (p2complex) at (1,1.5) {Complexity\\Normalization};
+\node[box] (p2multi) at (4,1.5) {Multi-Service\\Testing};
+\node[box] (p2hybrid) at (7,1.5) {Hybrid\\Integration};
+
+% Results
+\node[phase, fill=gitorange!20] (results) at (0,-1) {
+    \textbf{Statistical Analysis}\\
+    \textbf{\& Conclusions}\\
+    \small p < 0.01 significance\\
+    \small 316,481 bytes data
+};
+
+% Arrows between phases
+\draw[arrow] (phase1) -- (phase2) node[midway, above] {\small Progression};
+
+% Arrows from Phase 1 to components
+\draw[arrow] (phase1) -- (p1baseline);
+\draw[arrow] (phase1) -- (p1control);
+\draw[arrow] (phase1) -- (p1failure);
+
+% Arrows from Phase 2 to components
+\draw[arrow] (phase2) -- (p2complex);
+\draw[arrow] (phase2) -- (p2multi);
+\draw[arrow] (phase2) -- (p2hybrid);
+
+% Arrows to results
+\draw[arrow] (p1control) -- (results);
+\draw[arrow] (p2multi) -- (results);
+
+% Key findings boxes (more horizontal spacing)
+\node[box, fill=gitopsgreen!30, text width=2.5cm] (finding1) at (-7.5,-3) {
+    \small \textbf{GitOps:}\\
+    100\% automation\\
+    37s recovery
+};
+
+\node[box, fill=gitred!30, text width=2.5cm] (finding2) at (-2.5,-3) {
+    \small \textbf{Traditional:}\\
+    2.3x faster builds\\
+    Manual gates
+};
+
+\node[box, fill=gitorange!30, text width=2.5cm] (finding3) at (2.5,-3) {
+    \small \textbf{Hybrid:}\\
+    Zero overhead\\
+    integration
+};
+
+\node[box, fill=gitopsblue!30, text width=2.5cm] (finding4) at (7.5,-3) {
+    \small \textbf{Auth Config:}\\
+    65\% performance\\
+    impact
+};
+
+% Arrows to findings
+\draw[arrow] (results) -- (finding1);
+\draw[arrow] (results) -- (finding2);
+\draw[arrow] (results) -- (finding3);
+\draw[arrow] (results) -- (finding4);
+
+\end{tikzpicture}

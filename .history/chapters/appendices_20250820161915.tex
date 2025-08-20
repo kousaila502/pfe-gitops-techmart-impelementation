@@ -1,0 +1,166 @@
+\appendix
+
+\chapter{Configuration Details}
+\label{appendix:configuration}
+
+This appendix contains detailed configuration tables that support the implementation described in Chapter 5.
+
+\section{ArgoCD and Heroku Configuration}
+
+% Table A.1: ArgoCD Application Configuration (formerly Table 5.2)
+\begin{table}[H]
+\centering
+\caption{ArgoCD Application Configuration}
+\label{tab:argocd-applications-appendix}
+\begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Application} & \textbf{Target Service} & \textbf{Automation Level} & \textbf{Key Features} \\
+\hline
+user-service-app-clean & User Service & 100\% automated & Auto-sync, self-healing, automated pruning \\
+\hline
+order-service-app & Order Service & 100\% automated & Auto-sync, self-healing, automated pruning \\
+\hline
+\end{tabular}
+\end{table}
+
+% Table A.2: Heroku Application Configuration (formerly Table 5.3)
+\begin{table}[H]
+\centering
+\caption{Heroku Application Configuration}
+\label{tab:heroku-applications-appendix}
+\begin{tabular}{|p{3cm}|p{2.5cm}|p{3cm}|p{4.5cm}|}
+\hline
+\textbf{Service} & \textbf{Dyno Type} & \textbf{Buildpack} & \textbf{Platform Features} \\
+\hline
+Product Service & standard-1x & Node.js & NPM optimization, MongoDB Atlas integration \\
+\hline
+Cart Service & standard-1x & Container & JVM tuning, Spring Boot optimization \\
+\hline
+\end{tabular}
+\end{table}
+
+% Table A.3: Database Service Configuration (formerly Table 5.4)
+\begin{table}[H]
+\centering
+\caption{Database Service Configuration and Rationale}
+\label{tab:database-configuration-appendix}
+\begin{tabular}{|p{2.5cm}|p{2.5cm}|p{3cm}|p{5cm}|}
+\hline
+\textbf{Database} & \textbf{Provider} & \textbf{Configuration} & \textbf{Usage Pattern and Rationale} \\
+\hline
+PostgreSQL & Neon & us-east-2, connection pooling, SSL & Transactional data (User, Order services), ACID compliance, complex relationships \\
+\hline
+MongoDB & Atlas & M0 sandbox, text indexing, aggregation & Flexible catalog data (Product service), variable attributes, search optimization \\
+\hline
+Redis & Upstash & Regional deployment, TLS, JSON serialization & High-performance caching (Cart, Order), session management, temporary storage \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Container and Database Distribution}
+
+% Table A.4: Container Registry Management (formerly Table 5.9)
+\begin{table}[H]
+\centering
+\caption{Container Registry Management and Tagging Strategy}
+\label{tab:container-registry-strategy-appendix}
+\begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Methodology} & \textbf{Tagging Pattern} & \textbf{Registry Integration} & \textbf{Research Benefits} \\
+\hline
+GitOps Services & task1a-improved-SHA, task1b-improved-SHA & Docker Hub → ArgoCD sync & Deployment tracking and correlation \\
+\hline
+Traditional Services & task1c-improved-SHA, task1d-improved-SHA & Docker Hub → Heroku Registry & Performance measurement and comparison \\
+\hline
+\end{tabular}
+\end{table}
+
+% Table A.5: Database Technology Distribution (formerly Table 5.10)
+\begin{table}[H]
+\centering
+\caption{Database Technology Distribution and Implementation Strategy}
+\label{tab:database-technology-implementation-appendix}
+\begin{tabular}{|p{2.5cm}|p{2.5cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Database} & \textbf{Services} & \textbf{Data Characteristics} & \textbf{Key Implementation} & \textbf{Research Relevance} \\
+\hline
+Neon PostgreSQL & User, Order & ACID transactions, complex relationships & Async SQLAlchemy, connection pooling & Authentication bottleneck analysis \\
+\hline
+MongoDB Atlas & Product & Flexible schema, catalog data & Text indexing, aggregation pipelines & Platform optimization benefits \\
+\hline
+Upstash Redis & Cart, Order & High-performance caching, sessions & Reactive operations, JSON serialization & Technology stack efficiency \\
+\hline
+\end{tabular}
+\end{table}
+
+\chapter{Detailed Analysis}
+\label{appendix:analysis}
+
+This appendix contains detailed analysis tables that support the results presented in Chapter 6.
+
+\section{Performance Attribution}
+
+% Table B.1: Configuration Optimization Priority Matrix (formerly Table 6.8)
+\begin{table}[H]
+\centering
+\caption{Configuration Optimization Priority Matrix}
+\label{tab:optimization_priority_appendix}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2.5cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Optimization Area} & \textbf{Impact} & \textbf{Complexity} & \textbf{Timeline} & \textbf{ROI Assessment} \\
+\hline
+Authentication Service & 65\% & Low & 1-2 weeks & Very High \\
+\hline
+Technology Stack & 25\% & Medium & 1-3 months & High \\
+\hline
+Platform Alignment & 15\% & Medium & 2-4 months & Medium \\
+\hline
+Methodology Enhancement & 10\% & High & 3-6 months & Medium \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Risk Assessment and Optimization}
+
+% Table B.2: Methodology Cost-Benefit Analysis (formerly Table 6.10)
+\begin{table}[H]
+\centering
+\caption{Methodology Cost-Benefit Analysis}
+\label{tab:cost_benefit_appendix}
+\begin{tabular}{|p{3cm}|p{3.5cm}|p{3.5cm}|p{4cm}|}
+\hline
+\textbf{Cost Category} & \textbf{Traditional CI/CD} & \textbf{GitOps} & \textbf{Break-Even Analysis} \\
+\hline
+Implementation Cost & Low (existing tooling) & High (infrastructure + training) & GitOps ROI at 50+ developers \\
+\hline
+Operational Overhead & Manual coordination & Automated processes & 40-60\% reduction with automation \\
+\hline
+Development Velocity & 2.3x faster builds & Deployment bottleneck elimination & Context-dependent optimization \\
+\hline
+Strategic Value & Platform portability & Operational excellence & Competitive advantage potential \\
+\hline
+\end{tabular}
+\end{table}
+
+% Table B.3: Risk Assessment and Mitigation Matrix (formerly Table 6.11)
+\begin{table}[H]
+\centering
+\caption{Risk Assessment and Mitigation Matrix}
+\label{tab:risk_matrix_appendix}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{4.5cm}|}
+\hline
+\textbf{Risk Category} & \textbf{Traditional CI/CD} & \textbf{GitOps} & \textbf{Mitigation Strategies} \\
+\hline
+Scalability Limitations & Manual bottlenecks & Implementation complexity & Hybrid architecture with gradual adoption \\
+\hline
+Performance Trade-offs & Build efficiency focus & Orchestration overhead & Authentication optimization priority \\
+\hline
+Operational Dependencies & Human coordination & Technical expertise & Training investment with backup procedures \\
+\hline
+Strategic Positioning & Technology debt risk & Competitive advantage & Evidence-based selection with optimization \\
+\hline
+\end{tabular}
+\end{table}
+
+
+% Tables will be added here

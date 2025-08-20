@@ -1,0 +1,42 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces \xpg@aux {}{english}Declarative vs Imperative Deployment Comparison}}{10}{table.caption.5}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces \xpg@aux {}{english}Technology Stack Distribution for Methodology Comparison}}{12}{table.caption.8}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces \xpg@aux {}{english}Service Complexity Analysis and Platform Alignment}}{17}{table.caption.12}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \xpg@aux {}{english}Methodology-Specific Requirements Matrix}}{21}{table.caption.20}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}Service Architecture and Technology Distribution}}{27}{table.caption.21}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}Kubernetes Resource Allocation and Configuration}}{32}{table.caption.31}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}Traditional CI/CD Pipeline Stage Comparison}}{34}{table.caption.36}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}Database Technology Selection and Use Cases}}{42}{table.caption.54}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}Service Complexity Analysis and Performance Normalization}}{48}{table.caption.67}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}Performance Attribution Analysis}}{50}{table.caption.72}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces \xpg@aux {}{english}Multi-Cloud Infrastructure Distribution and Rationale}}{54}{table.caption.74}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces \xpg@aux {}{english}Service Implementation Characteristics and Research Relevance}}{62}{table.caption.92}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces \xpg@aux {}{english}GitOps Pipeline Implementation Comparison}}{72}{table.caption.112}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces \xpg@aux {}{english}Traditional CI/CD Pipeline Implementation Comparison}}{73}{table.caption.113}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces \xpg@aux {}{english}Build Performance Analysis and Technology Stack Impact}}{74}{table.caption.117}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces \xpg@aux {}{english}Service Architecture and Technology Distribution}}{85}{table.caption.132}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces \xpg@aux {}{english}Service Complexity Analysis and Performance Results}}{87}{table.caption.137}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces \xpg@aux {}{english}Performance Factor Attribution Analysis}}{88}{table.caption.140}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces \xpg@aux {}{english}Comprehensive Statistical Validation Results}}{91}{table.caption.146}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces \xpg@aux {}{english}Authentication Performance Impact Analysis}}{96}{table.caption.155}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces \xpg@aux {}{english}Comprehensive Performance Attribution Analysis}}{98}{table.caption.159}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces \xpg@aux {}{english}Technology Stack Performance Hierarchy}}{99}{table.caption.161}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces \xpg@aux {}{english}Enterprise Methodology Selection Decision Matrix}}{104}{table.caption.171}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces \xpg@aux {}{english}Comprehensive Methodology Comparison Results}}{112}{table.caption.181}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces \xpg@aux {}{english}Evidence-Based Methodology Selection Framework}}{114}{table.caption.182}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces \xpg@aux {}{english}ArgoCD Application Configuration}}{118}{table.caption.183}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces \xpg@aux {}{english}Heroku Application Configuration}}{118}{table.caption.184}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces \xpg@aux {}{english}Database Service Configuration and Rationale}}{119}{table.caption.185}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces \xpg@aux {}{english}Container Registry Management and Tagging Strategy}}{119}{table.caption.186}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces \xpg@aux {}{english}Database Technology Distribution and Implementation Strategy}}{119}{table.caption.187}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces \xpg@aux {}{english}Configuration Optimization Priority Matrix}}{120}{table.caption.188}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces \xpg@aux {}{english}Methodology Cost-Benefit Analysis}}{120}{table.caption.189}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces \xpg@aux {}{english}Risk Assessment and Mitigation Matrix}}{121}{table.caption.190}%

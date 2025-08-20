@@ -1,0 +1,294 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% =====================================
+% ESSENTIAL PACKAGES
+% =====================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,french,arabic]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{setspace}
+
+% =====================================
+% TABLE AND FIGURE PACKAGES
+% =====================================
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{ltxtable}
+
+% =====================================
+% GRAPHICS AND VISUALIZATION
+% =====================================
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc,patterns,decorations.pathreplacing}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{xcolor}
+
+% =====================================
+% CODE LISTINGS
+% =====================================
+\usepackage{listings}
+\usepackage{lstautogobble}
+
+% =====================================
+% FORMATTING AND LAYOUT
+% =====================================
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{appendix}
+\usepackage{pdfpages}
+\usepackage{afterpage}
+\usepackage{microtype} % Better typography
+\usepackage{parskip}   % Better paragraph spacing
+
+% =====================================
+% UNICODE CHARACTER HANDLING
+% =====================================
+\DeclareUnicodeCharacter{221E}{\ensuremath{\infty}}
+\DeclareUnicodeCharacter{03B1}{\ensuremath{\alpha}}
+\DeclareUnicodeCharacter{03B2}{\ensuremath{\beta}}
+\DeclareUnicodeCharacter{03B4}{\ensuremath{\delta}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2190}{\ensuremath{\leftarrow}}
+\DeclareUnicodeCharacter{2194}{\ensuremath{\leftrightarrow}}
+\DeclareUnicodeCharacter{2265}{\ensuremath{\geq}}
+\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}}
+\DeclareUnicodeCharacter{00B1}{\ensuremath{\pm}}
+
+% =====================================
+% PAGE GEOMETRY
+% =====================================
+\geometry{
+    left=3cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    includeheadfoot,
+    headheight=15pt
+}
+
+% =====================================
+% HEADER AND FOOTER STYLING
+% =====================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Special page style for chapter pages
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+% =====================================
+% CUSTOM COLORS (GitOps Theme)
+% =====================================
+\definecolor{gitopsblue}{RGB}{0,123,191}
+\definecolor{gitopsgreen}{RGB}{40,167,69}
+\definecolor{gitorange}{RGB}{255,123,0}
+\definecolor{gitred}{RGB}{220,53,69}
+\definecolor{lightgray}{RGB}{248,249,250}
+\definecolor{darkgray}{RGB}{52,58,64}
+
+% =====================================
+% CODE LISTING CONFIGURATION
+% =====================================
+\lstdefinestyle{gitops}{
+    backgroundcolor=\color{lightgray},
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{gitopsgreen},
+    frame=single,
+    frameround=tttt,
+    keywordstyle=\color{gitopsblue}\bfseries,
+    language=bash,
+    numbers=left,
+    numberstyle=\tiny\color{darkgray},
+    showstringspaces=false,
+    stringstyle=\color{gitorange},
+    tabsize=2,
+    xleftmargin=0.5cm,
+    xrightmargin=0.5cm,
+    rulecolor=\color{darkgray}
+}
+
+\lstset{style=gitops}
+
+% Additional language definitions
+\lstdefinelanguage{yaml}{
+    keywords={apiVersion, kind, metadata, spec, data, type},
+    keywordstyle=\color{gitopsblue}\bfseries,
+    string=[s]{"}{"},
+    stringstyle=\color{gitorange},
+    comment=[l]{\#},
+    commentstyle=\color{gitopsgreen}
+}
+
+% =====================================
+% CAPTION STYLING
+% =====================================
+\captionsetup{
+    font=small,
+    labelfont=bf,
+    textfont=it,
+    justification=centering,
+    singlelinecheck=false
+}
+
+\captionsetup[table]{
+    position=top,
+    skip=10pt
+}
+
+\captionsetup[figure]{
+    position=bottom,
+    skip=10pt
+}
+
+% =====================================
+% TABLE STYLING
+% =====================================
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{8pt}
+
+% =====================================
+% HYPERREF CONFIGURATION
+% =====================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=gitopsblue,
+    filecolor=gitorange,
+    urlcolor=gitopsblue,
+    citecolor=gitopsgreen,
+    pdftitle={From Design to Production: GitOps vs Traditional CI/CD Analysis},
+    pdfauthor={Kousaila Benhamouche},
+    pdfsubject={Master's Thesis - Information Systems Engineering},
+    pdfkeywords={GitOps, CI/CD, DevOps, Microservices, Multi-Cloud, TechMart},
+    pdfcreator={LaTeX with hyperref},
+    pdfproducer={ESI-SBA},
+    bookmarks=true,
+    bookmarksopen=true,
+    bookmarksdepth=3
+}
+
+% =====================================
+% CUSTOM COMMANDS
+% =====================================
+% Emphasis commands
+\newcommand{\gitops}{\textcolor{gitopsblue}{\textbf{GitOps}}}
+\newcommand{\cicd}{\textcolor{gitorange}{\textbf{CI/CD}}}
+\newcommand{\techmart}{\textcolor{gitopsgreen}{\textbf{TechMart}}}
+
+% Statistics commands
+\newcommand{\pvalue}[1]{\textit{p} $<$ #1}
+\newcommand{\cohend}[1]{\textit{Cohen's d} = #1}
+\newcommand{\confint}[2]{95\% CI: [#1, #2]}
+
+% Performance metrics
+\newcommand{\buildtime}[1]{\textbf{#1s} build time}
+\newcommand{\automation}[1]{\textbf{#1\%} automation}
+
+% =====================================
+% DOCUMENT INFORMATION
+% =====================================
+\title{
+    \textbf{\Huge From Design to Production:}\\[0.3cm]
+    \textbf{\Huge Comprehensive Implementation and}\\[0.3cm] 
+    \textbf{\Huge Performance Analysis of GitOps vs}\\[0.3cm]
+    \textbf{\Huge Traditional CI/CD Using Multi-Cloud}\\[0.3cm]
+    \textbf{\Huge Microservices Architecture}\\[0.8cm]
+    \Large \textit{TechMart Platform Implementation and Empirical Validation}\\[1cm]
+    \large Projet de Fin d'Études (PFE)\\
+    Master en Ingénierie des Systèmes d'Information
+}
+
+\author{
+    \textbf{\Large Kousaila Benhamouche}\\[0.5cm]
+    École Supérieure d'Informatique (ESI-SBA)\\
+    Sidi Bel Abbès, Algeria\\[0.5cm]
+    \href{mailto:k.benhamouche@esi-sba.dz}{\texttt{k.benhamouche@esi-sba.dz}}\\
+    \href{https://github.com/kousaila502}{\texttt{https://github.com/kousaila502}}
+}
+
+\date{Academic Year 2024-2025\\August 2025}
+
+% =====================================
+% DOCUMENT STRUCTURE
+% =====================================
+\begin{document}
+
+% Front matter
+\frontmatter
+\pagenumbering{roman}
+
+% Custom title page (Algerian university format)
+\input{chapters/title-page}
+
+% Standard title page (backup)
+\maketitle
+\thispagestyle{empty}
+\clearpage
+
+% Abstract and acknowledgments
+\input{abstract/abstract}
+\clearpage
+
+\input{acknowledgments/acknowledgments}
+\clearpage
+
+% Table of contents with proper spacing
+\tableofcontents
+\clearpage
+
+% List of figures
+\listoffigures
+\clearpage
+
+% List of tables  
+\listoftables
+\clearpage
+
+% Main matter
+\mainmatter
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Main chapters
+\input{chapters/01-introduction}
+\input{chapters/02-background}
+\input{chapters/03-requirements}
+\input{chapters/04-design}
+\input{chapters/05-implementation}
+\input{chapters/06-results}
+\input{chapters/07-conclusion}
+
+% Back matter
+\backmatter
+
+% Bibliography
+\bibliographystyle{IEEEtran}
+\bibliography{references/references}
+
+% Appendices
+\input{chapters/appendices}
+
+\end{document}

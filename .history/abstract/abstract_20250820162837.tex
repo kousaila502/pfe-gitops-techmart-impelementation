@@ -1,0 +1,29 @@
+\thispagestyle{empty}
+
+\begin{center}
+{\Large \textbf{Abstract}}
+\end{center}
+
+\vspace{1cm}
+
+This research compares two popular methods for deploying software applications: GitOps and Traditional CI/CD. The goal is to understand which method works better in different situations.
+
+To conduct this comparison, we built TechMart, a real e-commerce website with four separate services (user management, product catalog, shopping cart, and order processing). Each service uses different programming languages like Python, Node.js, and Java, and stores data in different databases.
+
+The platform runs on multiple cloud providers - some services on Google Cloud and others on Heroku. This setup allows us to test both deployment methods in realistic conditions.
+
+GitOps uses a tool called ArgoCD that automatically deploys applications by watching code changes in Git repositories. When developers update code, the system automatically applies those changes without human intervention.
+
+Traditional CI/CD uses GitHub Actions to build and deploy applications step-by-step, often requiring manual approval before deployment to production.
+
+We designed a systematic testing approach to fairly compare both methods. This includes measuring build times, deployment speed, and how well each method handles failures.
+
+The study shows that both methods have their strengths. GitOps provides better automation and faster error recovery, while Traditional CI/CD offers faster build times and simpler setup.
+
+Most importantly, we proved that both methods can work together in the same application. This means companies don't have to choose just one - they can use the best method for each service based on their specific needs.
+
+This research helps software teams make better decisions about which deployment method to use for their projects.
+
+\textbf{Keywords:} GitOps, CI/CD, Software Deployment, Cloud Computing, Microservices, TechMart, ArgoCD
+
+\newpage

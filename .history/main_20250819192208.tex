@@ -1,0 +1,113 @@
+\documentclass[12pt,a4paper,oneside]{book}
+
+% =====================================
+% MINIMAL PACKAGES FOR DEBUGGING
+% =====================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+
+% =====================================
+% PAGE GEOMETRY
+% =====================================
+\geometry{
+    left=3cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    includeheadfoot,
+    headheight=15pt
+}
+
+% =====================================
+% CUSTOM COLORS
+% =====================================
+\definecolor{gitopsblue}{RGB}{0,123,191}
+\definecolor{gitopsgreen}{RGB}{40,167,69}
+\definecolor{gitorange}{RGB}{255,123,0}
+
+% =====================================
+% HYPERREF - MINIMAL SAFE VERSION
+% =====================================
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,  % Disable colors temporarily
+    hidelinks=true,    % Hide link borders
+    bookmarks=false,   % Disable bookmarks temporarily
+    pdftitle={GitOps vs CI/CD Analysis},
+    pdfauthor={Kousaila Benhamouche}
+}
+
+% =====================================
+% CUSTOM COMMANDS
+% =====================================
+\newcommand{\gitops}{\textbf{GitOps}}
+\newcommand{\cicd}{\textbf{CI/CD}}
+\newcommand{\techmart}{\textbf{TechMart}}
+
+% =====================================
+% DOCUMENT INFORMATION
+% =====================================
+\title{
+    \textbf{\Huge From Design to Production:}\\[0.3cm]
+    \textbf{\Huge GitOps vs Traditional CI/CD Analysis}
+}
+
+\author{
+    \textbf{\Large Kousaila Benhamouche}\\[0.5cm]
+    École Supérieure d'Informatique (ESI-SBA)
+}
+
+\date{Academic Year 2024-2025}
+
+% =====================================
+% DOCUMENT STRUCTURE
+% =====================================
+\begin{document}
+
+% Front matter
+\frontmatter
+\pagenumbering{roman}
+
+% Custom title page
+\input{chapters/title-page}
+
+% Standard title page
+\maketitle
+\thispagestyle{empty}
+\clearpage
+
+% Table of contents
+\tableofcontents
+\clearpage
+
+% Main matter
+\mainmatter
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ONLY COMPILE ONE CHAPTER AT A TIME FOR DEBUGGING
+\input{chapters/01-introduction}
+% Comment out other chapters for now:
+% \input{chapters/02-background}
+% \input{chapters/03-requirements}
+% \input{chapters/04-design}
+% \input{chapters/05-implementation}
+% \input{chapters/06-results}
+% \input{chapters/07-conclusion}
+
+% Back matter
+\backmatter
+
+% Appendices
+% \input{chapters/appendices}
+
+\end{document}

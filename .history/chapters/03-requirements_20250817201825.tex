@@ -1,0 +1,276 @@
+\chapter{Requirements Analysis}
+
+\section{Introduction and Research Requirements Overview}
+
+This chapter presents a comprehensive analysis of the requirements that guided the design and implementation of the TechMart platform for empirical GitOps versus Traditional CI/CD methodology comparison. The requirements analysis emphasizes the DevOps engineering challenges, architectural decisions, and research infrastructure needs that enable rigorous comparative evaluation while operating within realistic resource constraints.
+
+The requirements analysis process focused on identifying the technical capabilities necessary for conducting valid empirical research while demonstrating production-grade DevOps implementation skills. This dual emphasis on research validity and operational excellence required careful consideration of service distribution strategies, infrastructure optimization, and monitoring capabilities that could provide meaningful comparative data.
+
+The chapter progresses through resource-constrained architecture planning, methodology-specific implementation requirements, multi-cloud service distribution, and empirical research infrastructure needs. Each section demonstrates how practical constraints can be transformed into research opportunities while maintaining technical rigor and operational reliability.
+
+The requirements analysis establishes the foundation for architectural decisions presented in subsequent chapters while highlighting the strategic thinking and resource optimization capabilities essential for real-world DevOps engineering in resource-constrained environments.
+
+\section{Resource-Constrained Architecture Requirements}
+
+\subsection{Budget and Resource Limitation Analysis}
+
+The fundamental constraint driving architectural decisions was the limited budget allocation of \$300 in Google Cloud Platform credits combined with free-tier limitations across multiple cloud providers. This resource constraint necessitated strategic analysis of service placement, resource allocation, and infrastructure optimization to maximize research value while maintaining production-grade implementation standards.
+
+Google Kubernetes Engine resource pricing analysis revealed that deploying all four microservices on GKE would exceed budget constraints due to persistent volume costs, load balancer fees, and compute instance requirements. The cost structure of e2-micro instances with associated networking and storage costs required careful optimization to enable extended research duration within budget limitations.
+
+% TODO: Add Table 3.1 - GKE Cost Analysis and Budget Breakdown
+\begin{table}[H]
+\centering
+\caption{GKE Resource Cost Analysis and Budget Allocation}
+\label{tab:gke-budget-analysis}
+% Table content to be added later
+\end{table}
+
+Heroku platform analysis identified opportunities for cost-effective deployment through free dyno hours, hobby-tier pricing, and educational discounts that could accommodate simpler services with lower resource requirements. The platform-as-a-service model provided reduced operational overhead while offering sufficient capabilities for Traditional CI/CD methodology evaluation.
+
+GitHub Student Pack benefits provided additional resources including enhanced CI/CD minutes, private repository capabilities, and educational access to premium tools that significantly enhanced development and deployment capabilities without additional cost. These educational benefits enabled implementation of sophisticated automation workflows that would otherwise require significant investment.
+
+\subsection{Strategic Service Distribution Requirements}
+
+The resource constraints necessitated strategic analysis of service complexity and infrastructure requirements to optimize placement across available platforms. This analysis required evaluation of each service's computational requirements, data persistence needs, scaling characteristics, and operational complexity to determine optimal deployment strategies.
+
+User Service complexity analysis identified requirements for sophisticated authentication workflows, database connectivity, session management, and security enforcement that would benefit significantly from Kubernetes orchestration capabilities. The service's role as authentication provider for the entire system required high availability, automatic scaling, and comprehensive monitoring that aligned with GitOps automation benefits.
+
+Order Service analysis revealed complex transaction processing requirements, multi-database connectivity (PostgreSQL and Redis), and business logic sophistication that justified investment in GitOps orchestration capabilities. The service's integration requirements and computational complexity made it an ideal candidate for demonstrating GitOps automation and self-healing capabilities.
+
+% TODO: Add Figure 3.1 - Service Complexity vs Platform Capability Matrix
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Service Complexity Analysis and Platform Assignment Strategy}
+\label{fig:service-complexity-matrix}
+\end{figure}
+
+Product Service analysis identified relatively straightforward CRUD operations with MongoDB integration that could be efficiently implemented using Heroku's platform-as-a-service model. The service's simpler architecture and predictable resource requirements aligned well with Traditional CI/CD deployment approaches and Heroku's optimization characteristics.
+
+Cart Service evaluation revealed moderate complexity with Redis integration and session management requirements that could benefit from Heroku's managed Redis offerings while demonstrating Traditional CI/CD capabilities. The service's Java Spring Boot implementation aligned well with Heroku's JVM optimization and container deployment capabilities.
+
+\subsection{GitHub Student Pack Resource Optimization}
+
+GitHub Student Pack resources provided substantial enhancements to development and deployment capabilities that enabled implementation of enterprise-grade DevOps practices without financial investment. The educational benefits included expanded GitHub Actions minutes, private repository access, and premium tool integrations that significantly enhanced automation capabilities.
+
+GitHub Actions optimization leveraged educational benefits to implement comprehensive CI/CD workflows for all services without usage limitations that would otherwise constrain automation scope. The enhanced minutes allocation enabled extensive testing, multiple environment deployments, and sophisticated workflow orchestration that demonstrated advanced DevOps automation capabilities.
+
+Private repository capabilities enabled secure code management and collaboration while supporting branch protection policies, code review workflows, and integration with external services. These capabilities provided professional development environments that aligned with enterprise standards while supporting academic research requirements.
+
+Premium tool integrations including monitoring services, security scanning, and deployment platforms provided access to enterprise-grade capabilities that enhanced system reliability and security. These integrations enabled implementation of production-grade operational practices while maintaining cost efficiency through educational pricing.
+
+% TODO: Add Table 3.2 - GitHub Student Pack Resource Utilization
+\begin{table}[H]
+\centering
+\caption{GitHub Student Pack Resource Utilization and Benefits}
+\label{tab:github-student-benefits}
+% Table content to be added later
+\end{table}
+
+\subsection{Hybrid Architecture Opportunity Requirements}
+
+The resource constraints created an unexpected research opportunity by necessitating hybrid architecture implementation that enabled direct comparison of GitOps and Traditional CI/CD methodologies within the same application ecosystem. This hybrid approach provided unique insights into methodology coexistence, integration patterns, and comparative performance characteristics.
+
+Cross-methodology integration requirements included seamless authentication flow between GitOps and Traditional CI/CD services, consistent API standards, shared database access patterns, and unified monitoring approaches. These integration challenges provided valuable research insights while demonstrating advanced system integration capabilities.
+
+Service communication requirements encompassed secure inter-service authentication, consistent error handling, distributed transaction management, and performance optimization across different deployment platforms. The hybrid architecture required sophisticated service mesh patterns and API gateway implementation to ensure reliable communication across methodological boundaries.
+
+Operational consistency requirements included unified logging, monitoring, alerting, and deployment coordination across different platforms and methodologies. This operational integration demonstrated advanced DevOps practices while enabling comprehensive system observability necessary for empirical research validation.
+
+% TODO: Add Figure 3.2 - Hybrid Architecture Integration Patterns
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Hybrid GitOps-Traditional CI/CD Integration Architecture}
+\label{fig:hybrid-architecture-integration}
+\end{figure}
+
+The hybrid architecture also provided risk mitigation benefits by distributing services across multiple platforms, reducing single points of failure, and enabling comparative evaluation of platform capabilities under identical workload conditions. This distribution strategy enhanced system resilience while providing comprehensive research data on methodology performance characteristics.
+
+\section{GitOps Implementation Requirements (GKE Services)}
+
+\subsection{ArgoCD Controller and Synchronization Requirements}
+
+ArgoCD implementation requirements encompassed comprehensive GitOps controller deployment that could manage complex application lifecycles while providing automated synchronization capabilities for the User and Order services. The controller architecture required high availability configuration, secure Git repository integration, and sophisticated reconciliation capabilities that could handle complex application dependencies.
+
+Synchronization requirements included real-time Git repository monitoring, automatic manifest application, health status tracking, and rollback capabilities that demonstrated GitOps operational excellence. The synchronization framework needed to handle complex Kubernetes resources including deployments, services, ingress controllers, and persistent volume claims while maintaining consistency across multiple application components.
+
+Git repository integration requirements encompassed secure authentication, webhook configuration, branch management, and pull request workflow integration that enabled collaborative development while maintaining deployment automation. The repository structure needed to support environment-specific configurations, security policies, and deployment strategies through declarative manifest organization.
+
+% TODO: Add Figure 3.3 - ArgoCD Architecture and Git Integration Flow
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{ArgoCD Controller Architecture and Git Repository Integration}
+\label{fig:argocd-architecture}
+\end{figure}
+
+Application health monitoring requirements included comprehensive readiness and liveness probe configuration, resource utilization tracking, and failure detection capabilities that enabled automated remediation actions. The monitoring framework needed to provide detailed visibility into application status while supporting automated decision-making for scaling and recovery operations.
+
+Automated remediation capabilities required configuration of self-healing policies, automatic rollback procedures, and escalation mechanisms that could respond to various failure scenarios without human intervention. These capabilities demonstrated GitOps operational advantages while providing research data on automation effectiveness and reliability characteristics.
+
+\subsection{Declarative Configuration Management Requirements}
+
+Declarative configuration management required comprehensive Infrastructure as Code implementation that could manage complex Kubernetes resources through version-controlled manifests stored in Git repositories. The configuration framework needed to support environment-specific customizations, security policies, and scaling configurations while maintaining consistency and auditability.
+
+Manifest organization requirements included logical resource grouping, namespace management, secret handling, and configuration templating that enabled maintainable infrastructure definitions. The manifest structure needed to support complex applications with multiple components while providing clear separation of concerns and dependency management.
+
+Kustomize integration requirements encompassed overlay management for environment-specific configurations, patch application for customizations, and resource transformation capabilities that enabled flexible deployment strategies without configuration duplication. The Kustomize framework needed to support development, staging, and production environments with appropriate security and performance configurations.
+
+% TODO: Add Table 3.3 - Declarative Configuration Structure and Organization
+\begin{table}[H]
+\centering
+\caption{Declarative Configuration Management Structure}
+\label{tab:declarative-config-structure}
+% Table content to be added later
+\end{table}
+
+Security policy enforcement requirements included secret management, RBAC configuration, network policies, and container security standards that ensured production-grade security while supporting research data collection needs. The security framework needed to demonstrate enterprise-grade practices while enabling comprehensive system monitoring and analysis.
+
+Configuration validation requirements encompassed syntax validation, policy compliance checking, resource limit enforcement, and dependency verification that prevented deployment of invalid or insecure configurations. The validation framework needed to provide early feedback to development teams while maintaining system stability and security standards.
+
+
+\subsection{Git-Based Infrastructure as Code Requirements}
+
+Git-based Infrastructure as Code implementation required comprehensive version control integration that treated infrastructure configurations as first-class software artifacts subject to standard development practices including code review, testing, and automated deployment. The Git repository structure needed to support complex infrastructure definitions while enabling collaborative development and audit trail maintenance.
+
+Repository organization requirements encompassed logical directory structures for different environments, application components, and configuration types that enabled efficient navigation and maintenance. The repository structure needed to support base configurations, environment-specific overlays, and shared components while maintaining clear separation of concerns and minimizing configuration duplication.
+
+Branch management requirements included protection policies, review workflows, and merge strategies that ensured infrastructure changes received appropriate oversight while supporting rapid development cycles. The branching strategy needed to support feature development, environment promotion, and emergency fixes while maintaining infrastructure stability and consistency.
+
+% TODO: Add Figure 3.4 - Git Repository Structure for Infrastructure as Code
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Git Repository Organization for Infrastructure as Code Management}
+\label{fig:git-infrastructure-structure}
+\end{figure}
+
+Automated testing requirements for infrastructure code included syntax validation, policy compliance checking, security scanning, and deployment simulation that could identify issues before production deployment. The testing framework needed to validate infrastructure changes across multiple environments while providing rapid feedback to development teams.
+
+Change management requirements encompassed pull request workflows, automated reviews, approval processes, and deployment coordination that ensured infrastructure changes followed established governance procedures while supporting development velocity. The change management framework needed to provide comprehensive audit trails while enabling efficient collaboration across development and operations teams.
+
+\subsection{Automated Drift Detection and Self-Healing Requirements (User + Order Services)}
+
+Automated drift detection capabilities required continuous monitoring of deployed infrastructure and application state compared to Git repository specifications with real-time identification of configuration discrepancies. The drift detection system needed to identify both intentional changes requiring Git updates and unauthorized modifications requiring automatic remediation.
+
+Self-healing implementation requirements encompassed automatic correction of configuration drift, failed component replacement, and resource optimization that demonstrated GitOps operational advantages. The self-healing capabilities needed to operate without human intervention while providing comprehensive logging and alerting for operational visibility.
+
+Resource monitoring requirements included CPU utilization tracking, memory consumption analysis, storage capacity monitoring, and network performance measurement that enabled automatic scaling decisions and resource optimization. The monitoring framework needed to support predictive scaling while maintaining cost efficiency within budget constraints.
+
+% TODO: Add Table 3.4 - Self-Healing Scenarios and Response Requirements
+\begin{table}[H]
+\centering
+\caption{Automated Self-Healing Scenarios and Response Mechanisms}
+\label{tab:self-healing-scenarios}
+% Table content to be added later
+\end{table}
+
+Health check requirements included application-specific readiness probes, liveness checks, and dependency validation that enabled accurate health status determination and appropriate remediation actions. The health checking framework needed to account for complex application dependencies while providing reliable failure detection and recovery coordination.
+
+Escalation procedures required automated notification systems, log aggregation, and incident tracking that ensured appropriate personnel received timely information about system issues requiring manual intervention. The escalation framework needed to balance automation benefits with human oversight for complex scenarios requiring domain expertise.
+
+\section{Traditional CI/CD Implementation Requirements (Heroku Services)}
+
+\subsection{Direct Deployment Pipeline Requirements}
+
+Traditional CI/CD implementation for Heroku services required comprehensive pipeline automation that could handle direct deployment workflows while maintaining consistency with GitOps services for comparative analysis. The pipeline architecture needed to demonstrate Traditional CI/CD capabilities while providing equivalent functionality to GitOps automation for fair methodology comparison.
+
+GitHub Actions integration requirements encompassed workflow automation, environment management, secret handling, and deployment coordination that enabled seamless integration with Heroku platform capabilities. The workflow design needed to support multiple environments while providing rollback capabilities and deployment verification procedures.
+
+Build process requirements included dependency management, testing execution, artifact creation, and deployment preparation that optimized for Heroku platform characteristics. The build optimization needed to leverage Heroku buildpacks while supporting custom configuration and performance optimization for Java Spring Boot and Node.js applications.
+
+% TODO: Add Figure 3.5 - Traditional CI/CD Pipeline Architecture for Heroku Services
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Traditional CI/CD Pipeline Architecture and Heroku Integration}
+\label{fig:traditional-cicd-pipeline}
+\end{figure}
+
+Deployment automation requirements encompassed environment promotion, configuration management, database migration coordination, and service dependency management that ensured reliable deployment procedures. The deployment framework needed to support blue-green deployments and canary releases while maintaining service availability during updates.
+
+Monitoring integration requirements included application performance tracking, error monitoring, log aggregation, and alerting configuration that provided operational visibility comparable to GitOps services. The monitoring framework needed to integrate with Heroku platform monitoring while supporting external observability tools for comprehensive system analysis.
+
+\subsection{Platform-as-a-Service Optimization Requirements}
+
+Heroku platform optimization required understanding of dyno management, buildpack utilization, add-on integration, and resource scaling that maximized platform benefits while minimizing operational overhead. The optimization strategy needed to leverage platform automation while maintaining development flexibility and performance characteristics.
+
+Dyno configuration requirements included size selection, scaling policies, and resource allocation that balanced performance requirements with cost constraints. The dyno management needed to support automatic scaling based on traffic patterns while maintaining predictable performance characteristics for research data collection.
+
+Buildpack optimization requirements encompassed custom buildpack development, dependency caching, build time minimization, and artifact optimization that improved deployment speed and resource utilization. The buildpack configuration needed to support both Java Spring Boot and Node.js applications while maintaining consistency across deployments.
+
+% TODO: Add Table 3.5 - Heroku Platform Optimization Strategies
+\begin{table}[H]
+\centering
+\caption{Heroku Platform-as-a-Service Optimization Requirements}
+\label{tab:heroku-optimization}
+% Table content to be added later
+\end{table}
+
+Add-on integration requirements included managed database services, caching solutions, monitoring tools, and third-party service integrations that enhanced application capabilities while reducing operational complexity. The add-on selection needed to provide equivalent functionality to GKE services while demonstrating platform-specific optimization benefits.
+
+Resource management requirements encompassed memory optimization, connection pooling, cache utilization, and performance tuning that maximized application efficiency within platform constraints. The resource optimization needed to support research data collection while maintaining cost efficiency and performance consistency.
+
+\subsection{Cost-Effective Service Deployment Requirements (Product + Cart Services)}
+
+Cost optimization requirements for Product and Cart services encompassed efficient resource utilization, appropriate dyno sizing, add-on selection, and traffic management that maximized functionality while minimizing operational costs. The cost optimization strategy needed to demonstrate effective resource management while maintaining service quality and research validity.
+
+Free tier optimization requirements included dyno hour management, sleep schedule coordination, and resource sharing that extended operational time within free tier limitations. The optimization strategy needed to support extended research duration while maintaining service availability for data collection and system integration testing.
+
+Database optimization requirements encompassed connection pooling, query optimization, indexing strategies, and data caching that minimized database resource consumption while maintaining performance characteristics. The database optimization needed to support both MongoDB and Redis integration while minimizing add-on costs.
+
+% TODO: Add Figure 3.6 - Cost Optimization Strategy for Heroku Services
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Cost-Effective Deployment Strategy for Traditional CI/CD Services}
+\label{fig:cost-optimization-strategy}
+\end{figure}
+
+Performance monitoring requirements included response time tracking, error rate monitoring, resource utilization analysis, and capacity planning that enabled optimization decisions while providing research data on Traditional CI/CD performance characteristics. The monitoring framework needed to provide equivalent visibility to GitOps services for fair comparative analysis.
+
+Scaling strategy requirements encompassed automatic scaling configuration, traffic pattern analysis, and capacity planning that ensured service availability while optimizing resource costs. The scaling strategy needed to balance performance requirements with budget constraints while supporting research data collection needs.
+
+\subsection{Manual vs Automated Operations Requirements}
+
+Operational workflow analysis required identification of manual intervention points, automation opportunities, and human oversight requirements that characterized Traditional CI/CD approaches compared to GitOps automation. The workflow analysis needed to provide objective comparison data while demonstrating operational differences between methodologies.
+
+Manual approval requirements included deployment gates, environment promotion procedures, configuration change approvals, and incident response coordination that required human decision-making. The manual processes needed to demonstrate Traditional CI/CD characteristics while maintaining system reliability and security standards.
+
+Automation scope requirements encompassed build processes, testing execution, deployment procedures, and monitoring configuration that could be automated within Traditional CI/CD frameworks. The automation implementation needed to maximize efficiency while maintaining manual oversight capabilities for comparative analysis.
+
+% TODO: Add Table 3.6 - Manual vs Automated Operations Comparison Matrix
+\begin{table}[H]
+\centering
+\caption{Manual vs Automated Operations Requirements Analysis}
+\label{tab:manual-automated-operations}
+% Table content to be added later
+\end{table}
+
+Documentation requirements included operational procedures, troubleshooting guides, deployment checklists, and incident response playbooks that supported manual operations while ensuring consistency and reliability. The documentation framework needed to demonstrate Traditional CI/CD operational characteristics while supporting research reproducibility.
+
+Training requirements encompassed team onboarding, operational procedures, emergency response, and best practices that enabled effective Traditional CI/CD operations. The training framework needed to account for human factors in operational efficiency while supporting research objectives and methodology comparison.
+
+\section{Multi-Cloud Microservices Architecture Requirements}
+
+\subsection{Service Decomposition and Boundary Requirements}
+
+Service boundary definition required careful analysis of business capabilities, data ownership, team structure, and operational characteristics that enabled effective microservices decomposition while supporting research objectives. The decomposition strategy needed to balance service autonomy with system coherence while enabling meaningful methodology comparison.
+
+Domain-driven design principles guided service boundary identification through analysis of business capabilities, data relationships, and organizational structure that aligned service ownership with team responsibilities. The domain analysis needed to support clear service interfaces while minimizing cross-service dependencies and communication overhead.
+
+Data ownership requirements encompassed database-per-service patterns, data consistency models, and synchronization strategies that enabled service autonomy while maintaining system-wide data integrity. The data architecture needed to support both relational and NoSQL storage requirements while demonstrating polyglot persistence benefits.
+
+% TODO: Add Figure 3.7 - Microservices Decomposition and Boundary Analysis
+\begin{figure}[H]
+\centering
+% Figure content to be added later
+\caption{Microservices Service Boundary and Domain Decomposition}
+\label{fig:microservices-decomposition}
+\end{figure}
+
+Interface design requirements included RESTful API specifications, data transfer object definitions, error handling standards, and versioning strategies that enabled clean service interactions while supporting evolution and maintenance. The interface design needed to support both synchronous and asynchronous communication patterns while maintaining consistency across services.
+
+Dependency management requirements encompassed service discovery, configuration management, secret sharing, and deployment coordination that enabled independent service operation while supporting system-wide functionality. The dependency framework needed to minimize coupling while enabling necessary integration for business functionality.

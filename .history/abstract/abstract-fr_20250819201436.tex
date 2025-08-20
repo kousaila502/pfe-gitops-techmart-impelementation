@@ -1,0 +1,23 @@
+\thispagestyle{empty}
+
+\begin{center}
+{\Large \textbf{Résumé}}
+\end{center}
+
+\vspace{1cm}
+
+Cette recherche présente la première comparaison empirique complète des méthodologies GitOps et CI/CD traditionnelles utilisant une plateforme de microservices multi-cloud de niveau production. À travers l'implémentation de TechMart, une plateforme e-commerce fonctionnelle s'étendant sur l'infrastructure Google Kubernetes Engine et Heroku, cette étude aborde les lacunes critiques dans l'évaluation des méthodologies de déploiement grâce à une analyse statistique rigoureuse et une normalisation de la complexité.
+
+L'investigation emploie une approche systématique en deux phases comprenant 47 expériences contrôlées avec validation de signification statistique (p < 0,01). La Phase 1 établit les caractéristiques de base des méthodologies à travers une comparaison mono-service, tandis que la Phase 2 implémente une normalisation de complexité multi-services permettant une évaluation équitable à travers des piles technologiques hétérogènes incluant Python FastAPI, Node.js Express, et Java Spring Boot.
+
+Les résultats clés révèlent des compromis fondamentaux entre les méthodologies de déploiement : le CI/CD traditionnel démontre une performance de construction 2,3x supérieure (57s vs. 132,5s en moyenne), tandis que GitOps atteint 100\% d'automatisation avec une récupération de panne 17x plus rapide (23-37s automatique vs. 5-15 minutes manuel). L'analyse d'attribution de performance critique identifie la configuration du service d'authentification comme contribuant à 65\% des différences de performance, fournissant des opportunités d'optimisation immédiates indépendamment de la sélection de méthodologie.
+
+La recherche valide l'intégration d'architecture hybride à surcharge zéro, première dans l'industrie, démontrant une coexistence transparente de GitOps et CI/CD traditionnel avec confirmation statistique d'aucune pénalité de performance mesurable (p > 0,05). Cette découverte permet des stratégies de migration pratiques et une application sélective de méthodologie basée sur les caractéristiques des services plutôt que sur les contraintes architecturales.
+
+L'étude développe un cadre de normalisation de complexité novateur permettant une comparaison équitable à travers des architectures de services hétérogènes en tenant compte de la complexité du code source (20\%), des exigences de construction (25\%), de l'intensité des ressources (20\%), des caractéristiques de la pile technologique (15\%), des dépendances externes (10\%), et de la complexité de la cible de déploiement (10\%).
+
+Les cadres de décision d'entreprise dérivés des preuves empiriques recommandent le CI/CD traditionnel pour les petites équipes (<10 développeurs) priorisant la vitesse de construction, les architectures hybrides pour les équipes moyennes (10-50 développeurs) permettant une adoption graduelle, et GitOps pour les grandes équipes (50+ développeurs) nécessitant une évolutivité opérationnelle et une excellence d'automatisation.
+
+\textbf{Mots-clés :} GitOps, CI/CD Traditionnel, Architecture Multi-Cloud, Microservices, Analyse de Performance, DevOps, Étude Empirique, Plateforme TechMart
+
+\newpage
