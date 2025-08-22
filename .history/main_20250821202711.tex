@@ -1,0 +1,124 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setdefaultlanguage{english}
+\setotherlanguage{arabic}
+
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+% Bibliography setup - ADD THIS BEFORE OTHER PACKAGES
+\usepackage[backend=biber,style=ieee,sorting=none,maxbibnames=99]{biblatex}
+\addbibresource{references_cleaned.bib}
+
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\geometry{
+    left=3cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    headheight=15pt
+}
+
+% Custom colors
+\definecolor{gitopsblue}{RGB}{0,123,191}
+\definecolor{gitopsgreen}{RGB}{40,167,69}
+\definecolor{gitorange}{RGB}{255,123,0}
+
+% Code listing settings
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{green!50!black},
+    frame=single,
+    keywordstyle=\color{blue},
+    language=bash,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    stringstyle=\color{red},
+    tabsize=2
+}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=gitopsblue,
+    urlcolor=gitopsblue,
+    citecolor=gitopsblue,
+    pdftitle={GitOps vs Traditional CI/CD Analysis},
+    pdfauthor={Kousaila Benhamouche}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% Front matter - Roman numbering
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+% Title page
+\input{chapters/title-page}
+
+\input{acknowledgments/acknowledgments}
+
+\input{abstract/abstract}
+\input{abstract/abstract-ar}
+\input{abstract/abstract-fr}
+
+% Table of contents
+\tableofcontents
+\clearpage
+
+% List of figures
+\listoffigures
+\clearpage
+
+% List of tables
+\listoftables
+\clearpage
+
+% Main matter - Arabic numbering
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Main chapters
+\input{chapters/01-introduction}
+\input{chapters/02-background}
+\input{chapters/03-requirements}
+\input{chapters/04-design}
+\input{chapters/05-implementation}
+\input{chapters/06-results}
+\input{chapters/07-conclusion}
+
+% Appendices
+\input{chapters/appendices}
+
+% Include all bibliography entries even if not cited
+\nocite{*}
+
+% Bibliography
+\printbibliography[title=References]
+
+\end{document}

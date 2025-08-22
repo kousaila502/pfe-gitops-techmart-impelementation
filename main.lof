@@ -1,51 +1,48 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \xpg@aux {}{english}Two-Phase Research Methodology for GitOps vs. Traditional CI/CD evaluation.}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \xpg@aux {}{english}Two-Phase Research Methodology for GitOps vs. Traditional CI/CD evaluation.}}{6}{figure.caption.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \xpg@aux {}{english}GitOps vs Traditional CI/CD Workflow Comparison}}{10}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \xpg@aux {}{english}Multi-Cloud Architecture for GitOps vs Traditional CI/CD Implementation}}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \xpg@aux {}{english}GitOps vs Traditional CI/CD Workflow Comparison}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \xpg@aux {}{english}Multi-Cloud Architecture for GitOps vs Traditional CI/CD Implementation}}{13}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \xpg@aux {}{english}Resource-Constrained Architecture Strategy}}{18}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \xpg@aux {}{english}Resource-Constrained Architecture Strategy}}{20}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}TechMart Platform Class Diagram showing database relationships and entity structure}}{27}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}Complete TechMart System Architecture}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}Multi-Cloud Infrastructure Architecture showing distributed deployment strategy}}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}ArgoCD Application Details showing deployment status and configuration}}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}GKE Cluster Architecture showing Kubernetes infrastructure and pod distribution}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}Kubernetes Cluster Overview showing node configuration and resource allocation}}{33}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{english}GitHub Actions Workflows Overview showing CI/CD pipeline automation}}{34}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{english}GitOps Workflow Design showing automated deployment pipeline}}{35}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{english}Traditional CI/CD Workflow Design showing manual approval gates}}{35}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{english}Heroku Applications Overview showing Traditional CI/CD deployments}}{36}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{english}ArgoCD Git Repository Configuration showing declarative infrastructure management}}{37}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{english}Research Methodology Framework}}{45}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces \xpg@aux {}{english}Complexity Normalization Process}}{47}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}Complete TechMart System Architecture}}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}Multi-Cloud Infrastructure Architecture showing distributed deployment strategy}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}ArgoCD Application Details showing deployment status and configuration}}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}GKE Cluster Architecture showing Kubernetes infrastructure and pod distribution}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}Kubernetes Cluster Overview showing node configuration and resource allocation}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}GitHub Actions Workflows Overview showing CI/CD pipeline automation}}{34}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{english}GitOps Workflow Design showing automated deployment pipeline}}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{english}Traditional CI/CD Workflow Design showing manual approval gates}}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{english}Heroku Applications Overview showing Traditional CI/CD deployments}}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{english}ArgoCD Git Repository Configuration showing declarative infrastructure management}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{english}Research Methodology Framework}}{46}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{english}Complexity Normalization Process}}{49}{figure.caption.64}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \xpg@aux {}{english}Infrastructure Deployment Diagram}}{54}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \xpg@aux {}{english}Infrastructure Deployment Diagram}}{55}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \xpg@aux {}{english}ArgoCD Deployment Synchronization showing GitOps automation in action}}{56}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \xpg@aux {}{english}ArgoCD Deployment History showing revision tracking and rollback capabilities}}{57}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \xpg@aux {}{english}Heroku Deployment Logs showing Traditional CI/CD platform deployment}}{58}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \xpg@aux {}{english}PostgreSQL User Service Database Tables showing relational schema design}}{59}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces \xpg@aux {}{english}PostgreSQL Order Service Database Tables showing complex transactional structure}}{59}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces \xpg@aux {}{english}MongoDB Collections showing flexible document-based product catalog}}{60}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces \xpg@aux {}{english}Redis Cache Data showing high-performance session and cart management}}{60}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces \xpg@aux {}{english}TechMart Product Catalog demonstrating MongoDB-based flexible product management}}{63}{figure.caption.93}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces \xpg@aux {}{english}TechMart Product Details page showing detailed product information and functionality}}{63}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces \xpg@aux {}{english}TechMart Shopping Cart demonstrating Redis-based high-performance cart management}}{68}{figure.caption.102}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces \xpg@aux {}{english}TechMart User Dashboard showing authenticated user functionality}}{68}{figure.caption.103}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces \xpg@aux {}{english}TechMart User Orders page demonstrating order management and transaction history}}{69}{figure.caption.104}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces \xpg@aux {}{english}TechMart Admin Dashboard showing administrative interface and system management}}{70}{figure.caption.107}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces \xpg@aux {}{english}TechMart User Management interface demonstrating administrative user controls}}{71}{figure.caption.108}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces \xpg@aux {}{english}TechMart Order Management system showing comprehensive order administration}}{71}{figure.caption.109}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces \xpg@aux {}{english}GitHub Actions Workflow Architecture Comparison: GitOps vs Traditional CI/CD}}{72}{figure.caption.110}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces \xpg@aux {}{english}GitHub Actions Workflows showing CI/CD pipeline automation in progress}}{73}{figure.caption.114}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces \xpg@aux {}{english}Docker Hub Registry showing container images and research-specific tagging strategy}}{74}{figure.caption.115}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces \xpg@aux {}{english}Database Architecture Diagram - Polyglot Persistence Strategy}}{78}{figure.caption.122}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \xpg@aux {}{english}Infrastructure Deployment Diagram}}{55}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \xpg@aux {}{english}ArgoCD Deployment Synchronization showing GitOps automation in action}}{57}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \xpg@aux {}{english}ArgoCD Deployment History showing revision tracking and rollback capabilities}}{58}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \xpg@aux {}{english}Heroku Deployment Logs showing Traditional CI/CD platform deployment}}{59}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \xpg@aux {}{english}PostgreSQL User Service Database Tables showing relational schema design}}{60}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \xpg@aux {}{english}PostgreSQL Order Service Database Tables showing complex transactional structure}}{60}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \xpg@aux {}{english}MongoDB Collections showing flexible document-based product catalog}}{61}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \xpg@aux {}{english}Redis Cache Data showing high-performance session and cart management}}{61}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \xpg@aux {}{english}TechMart Product Catalog demonstrating MongoDB-based flexible product management}}{64}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \xpg@aux {}{english}TechMart Product Details page showing detailed product information and functionality}}{64}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces \xpg@aux {}{english}TechMart Shopping Cart demonstrating Redis-based high-performance cart management}}{69}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces \xpg@aux {}{english}TechMart User Dashboard showing authenticated user functionality}}{69}{figure.caption.101}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces \xpg@aux {}{english}TechMart User Orders page demonstrating order management and transaction history}}{70}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces \xpg@aux {}{english}TechMart Admin Dashboard showing administrative interface and system management}}{71}{figure.caption.105}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces \xpg@aux {}{english}TechMart User Management interface demonstrating administrative user controls}}{72}{figure.caption.106}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces \xpg@aux {}{english}TechMart Order Management system showing comprehensive order administration}}{72}{figure.caption.107}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces \xpg@aux {}{english}GitHub Actions Workflows showing CI/CD pipeline automation in progress}}{74}{figure.caption.111}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces \xpg@aux {}{english}Docker Hub Registry showing container images and research-specific tagging strategy}}{75}{figure.caption.112}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces \xpg@aux {}{english}Database Architecture Diagram - Polyglot Persistence Strategy}}{79}{figure.caption.119}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces \xpg@aux {}{english}Performance Comparison Charts: GitOps vs Traditional CI/CD}}{85}{figure.caption.133}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \xpg@aux {}{english}Statistical Analysis Results}}{91}{figure.caption.147}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces \xpg@aux {}{english}Authentication Bottleneck Analysis}}{97}{figure.caption.156}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces \xpg@aux {}{english}Technology Stack Performance Hierarchy}}{100}{figure.caption.162}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \xpg@aux {}{english}Performance Comparison Charts: GitOps vs Traditional CI/CD}}{86}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \xpg@aux {}{english}Statistical Analysis Results}}{92}{figure.caption.144}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \xpg@aux {}{english}Authentication Bottleneck Analysis}}{98}{figure.caption.153}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \xpg@aux {}{english}Technology Stack Performance Hierarchy}}{101}{figure.caption.159}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

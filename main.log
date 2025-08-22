@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.8.19)  20 AUG 2025 20:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.8.19)  21 AUG 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,19 +250,279 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"Amiri/BI/OT:script=arab;language=dflt;"
 
- (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks27
 )
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count319
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count320
+\c@listtotal=\count321
+\c@listcount=\count322
+\c@liststart=\count323
+\c@liststop=\count324
+\c@citecount=\count325
+\c@citetotal=\count326
+\c@multicitecount=\count327
+\c@multicitetotal=\count328
+\c@instcount=\count329
+\c@maxnames=\count330
+\c@minnames=\count331
+\c@maxitems=\count332
+\c@minitems=\count333
+\c@citecounter=\count334
+\c@maxcitecounter=\count335
+\c@savedcitecounter=\count336
+\c@uniquelist=\count337
+\c@uniquename=\count338
+\c@refsection=\count339
+\c@refsegment=\count340
+\c@maxextratitle=\count341
+\c@maxextratitleyear=\count342
+\c@maxextraname=\count343
+\c@maxextradate=\count344
+\c@maxextraalpha=\count345
+\c@abbrvpenalty=\count346
+\c@highnamepenalty=\count347
+\c@lownamepenalty=\count348
+\c@maxparens=\count349
+\c@parenlevel=\count350
+\blx@tempcnta=\count351
+\blx@tempcntb=\count352
+\blx@tempcntc=\count353
+\c@blx@maxsection=\count354
+\blx@maxsegment@0=\count355
+\blx@notetype=\count356
+\blx@parenlevel@text=\count357
+\blx@parenlevel@foot=\count358
+\blx@sectionciteorder@0=\count359
+\blx@sectionciteorderinternal@0=\count360
+\blx@entrysetcounter=\count361
+\blx@biblioinstance=\count362
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count363
+\c@maxcomprange=\count364
+\c@mincompwidth=\count365
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count366
+\c@savedafterword=\count367
+\c@annotator=\count368
+\c@savedannotator=\count369
+\c@author=\count370
+\c@savedauthor=\count371
+\c@bookauthor=\count372
+\c@savedbookauthor=\count373
+\c@commentator=\count374
+\c@savedcommentator=\count375
+\c@editor=\count376
+\c@savededitor=\count377
+\c@editora=\count378
+\c@savededitora=\count379
+\c@editorb=\count380
+\c@savededitorb=\count381
+\c@editorc=\count382
+\c@savededitorc=\count383
+\c@foreword=\count384
+\c@savedforeword=\count385
+\c@holder=\count386
+\c@savedholder=\count387
+\c@introduction=\count388
+\c@savedintroduction=\count389
+\c@namea=\count390
+\c@savednamea=\count391
+\c@nameb=\count392
+\c@savednameb=\count393
+\c@namec=\count394
+\c@savednamec=\count395
+\c@translator=\count396
+\c@savedtranslator=\count397
+\c@shortauthor=\count398
+\c@savedshortauthor=\count399
+\c@shorteditor=\count400
+\c@savedshorteditor=\count401
+\c@labelname=\count402
+\c@savedlabelname=\count403
+\c@institution=\count404
+\c@savedinstitution=\count405
+\c@lista=\count406
+\c@savedlista=\count407
+\c@listb=\count408
+\c@savedlistb=\count409
+\c@listc=\count410
+\c@savedlistc=\count411
+\c@listd=\count412
+\c@savedlistd=\count413
+\c@liste=\count414
+\c@savedliste=\count415
+\c@listf=\count416
+\c@savedlistf=\count417
+\c@location=\count418
+\c@savedlocation=\count419
+\c@organization=\count420
+\c@savedorganization=\count421
+\c@origlocation=\count422
+\c@savedoriglocation=\count423
+\c@origpublisher=\count424
+\c@savedorigpublisher=\count425
+\c@publisher=\count426
+\c@savedpublisher=\count427
+\c@language=\count428
+\c@savedlanguage=\count429
+\c@origlanguage=\count430
+\c@savedoriglanguage=\count431
+\c@pageref=\count432
+\c@savedpageref=\count433
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count434
+\c@textcitetotal=\count435
+\c@textcitemaxnames=\count436
+\c@biburlbigbreakpenalty=\count437
+\c@biburlbreakpenalty=\count438
+\c@biburlnumpenalty=\count439
+\c@biburlucpenalty=\count440
+\c@biburllcpenalty=\count441
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count442
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.
+bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count443
+\c@bbx:relatedtotal=\count444
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.
+cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-07-11 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.st
+y
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count319
-\Gm@cntv=\count320
-\c@Gm@tempcnt=\count321
+\Gm@cnth=\count445
+\Gm@cntv=\count446
+\c@Gm@tempcnt=\count447
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -282,20 +542,20 @@ kage for XeTeX engine
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip54
-\f@nch@offset@elh=\skip55
-\f@nch@offset@erh=\skip56
-\f@nch@offset@olh=\skip57
-\f@nch@offset@orh=\skip58
-\f@nch@offset@elf=\skip59
-\f@nch@offset@erf=\skip60
-\f@nch@offset@olf=\skip61
-\f@nch@offset@orf=\skip62
-\f@nch@height=\skip63
-\f@nch@footalignment=\skip64
-\f@nch@widthL=\skip65
-\f@nch@widthC=\skip66
-\f@nch@widthR=\skip67
+\f@nch@headwidth=\skip76
+\f@nch@offset@elh=\skip77
+\f@nch@offset@erh=\skip78
+\f@nch@offset@olh=\skip79
+\f@nch@offset@orh=\skip80
+\f@nch@offset@elf=\skip81
+\f@nch@offset@erf=\skip82
+\f@nch@offset@olf=\skip83
+\f@nch@offset@orf=\skip84
+\f@nch@height=\skip85
+\f@nch@footalignment=\skip86
+\f@nch@widthL=\skip87
+\f@nch@widthC=\skip88
+\f@nch@widthR=\skip89
 \@temptokenb=\toks29
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\fancyhdr-xetex-bidi
@@ -340,7 +600,7 @@ File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
 kage for XeTeX engine
 ) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip68
+\@mathmargin=\skip90
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -362,14 +622,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count322
+\inf@bad=\count448
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count323
-\leftroot@=\count324
+\uproot@=\count449
+\leftroot@=\count450
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count325
-\DOTSCASE@=\count326
+\classnum@=\count451
+\DOTSCASE@=\count452
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -382,20 +642,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count327
+\macc@depth=\count453
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count328
-\dotsspace@=\muskip17
-\c@parentequation=\count329
-\dspbrk@lvl=\count330
+\c@MaxMatrixCols=\count454
+\dotsspace@=\muskip22
+\c@parentequation=\count455
+\dspbrk@lvl=\count456
 \tag@help=\toks31
-\row@=\count331
-\column@=\count332
-\maxfields@=\count333
+\row@=\count457
+\column@=\count458
+\maxfields@=\count459
 \andhelp@=\toks32
 \eqnshift@=\dimen167
 \alignsep@=\dimen168
@@ -404,8 +664,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen171
 \lineht@=\dimen172
 \@envbody=\toks33
-\multlinegap=\skip69
-\multlinetaggap=\skip70
+\multlinegap=\skip91
+\multlinetaggap=\skip92
 \mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
@@ -436,12 +696,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen180
 \cmidrulekern=\dimen181
 \defaultaddspace=\dimen182
-\@cmidla=\count334
-\@cmidlb=\count335
+\@cmidla=\count460
+\@cmidlb=\count461
 \@aboverulesep=\dimen183
 \@belowrulesep=\dimen184
-\@thisruleclass=\count336
-\@lastruleclass=\count337
+\@thisruleclass=\count462
+\@lastruleclass=\count463
 \@thisrulewidth=\dimen185
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
@@ -450,8 +710,8 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \ar@mcellbox=\box55
 \extrarowheight=\dimen187
 \NC@list=\toks35
-\extratabsurround=\skip71
-\backup@length=\skip72
+\extratabsurround=\skip93
+\backup@length=\skip94
 \ar@cellbox=\box56
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\array-xetex-bidi.de
@@ -460,9 +720,9 @@ File: array-xetex-bidi.def 2024/12/10 v0.5 bidi adaptations for array package f
 or XeTeX engine
 ) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip73
-\multirow@cntb=\count338
-\multirow@dima=\skip74
+\multirow@colwidth=\skip95
+\multirow@cntb=\count464
+\multirow@dima=\skip96
 \bigstrutjot=\dimen188
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -490,7 +750,7 @@ File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package
 LaTeX Info: Redefining \color on input line 48.
 ) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count339
+\c@float@type=\count465
 \float@exts=\toks36
 \float@box=\box57
 \@float@everytoks=\toks37
@@ -531,8 +791,8 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
+\c@caption@flags=\count466
+\c@continuedfloat=\count467
 Package caption Info: float package is loaded.
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\caption-xetex-bidi.
@@ -543,22 +803,22 @@ ge for XeTeX engine
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count342
+\c@subfigure=\count468
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count343
+\c@subtable=\count469
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count344
+\lst@mode=\count470
 \lst@gtempboxa=\box59
 \lst@token=\toks38
-\lst@length=\count345
+\lst@length=\count471
 \lst@currlwidth=\dimen197
-\lst@column=\count346
-\lst@pos=\count347
+\lst@column=\count472
+\lst@pos=\count473
 \lst@lostspace=\dimen198
 \lst@width=\dimen199
-\lst@newlines=\count348
-\lst@lineno=\count349
+\lst@newlines=\count474
+\lst@lineno=\count475
 \lst@maxwidth=\dimen256
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -566,8 +826,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count350
-\lst@skipnumbers=\count351
+\c@lstnumber=\count476
+\lst@skipnumbers=\count477
 \lst@framebox=\box60
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -597,26 +857,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitles
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count352
-) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
-y
+)
+\c@section@level=\count478
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count353
-\Hy@pagecounter=\count354
- (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+\Hy@linkcounter=\count479
+\Hy@pagecounter=\count480
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count355
+\Hy@SavedSpaceFactor=\count481
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -628,12 +885,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count356
-
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count482
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen258
 
@@ -645,7 +897,7 @@ y
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count357
+\Fld@menulength=\count483
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -655,18 +907,18 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count358
-\c@Item=\count359
-\c@Hfootnote=\count360
+\Hy@abspage=\count484
+\c@Item=\count485
+\c@Hfootnote=\count486
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
 \pdfm@box=\box61
-\c@Hy@AnnotLevel=\count361
-\HyField@AnnotCount=\count362
-\Fld@listcount=\count363
-\c@bookmark@seq@number=\count364
+\c@Hy@AnnotLevel=\count487
+\HyField@AnnotCount=\count488
+\Fld@listcount=\count489
+\c@bookmark@seq@number=\count490
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
 eck.sty
@@ -679,7 +931,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip75
+\Hy@SectionHShift=\skip97
 )
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\hyperref-xetex-bidi
 .def
@@ -692,7 +944,7 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 62.
+Package hyperref Info: Option `colorlinks' set `true' on input line 67.
 
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\report-xetex-bidi.d
 ef
@@ -703,33 +955,36 @@ t class for XeTeX engine
 f
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
-) (main.aux
+)
+\@quotelevel=\count491
+\@quotereset=\count492
+ (main.aux
 
-LaTeX Warning: Label `fig:infrastructure-deployment-diagram' multiply defined.
+LaTeX Warning: Label `tab:service-architecture-comparison' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -737,56 +992,98 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 70.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 70.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 70.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 70.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 70.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 70.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 70.
-LaTeX Font Info:    Redeclaring math accent \check on input line 70.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 70.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 70.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 70.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 70.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 75.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 75.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 75.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 75.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 75.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 75.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 75.
+LaTeX Font Info:    Redeclaring math accent \check on input line 75.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 75.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 75.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 75.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 75.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 70.
+(Font)              `operators' in the math version `normal' on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 70.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 75.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 70.
+(Font)              `operators' in the math version `bold' on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 70.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 70.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 70.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 70.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 70.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 70.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 70.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 70.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 75.
+Package biblatex Info: Trying to load language 'arabic'...
+Package biblatex Info: ... file 'arabic.lbx' not found.
+
+
+Package biblatex Warning: Language 'arabic' not supported.
+(biblatex)                Using dummy definitions on input line 75.
+
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+(main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                effect_size_interpretation
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -826,11 +1123,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count365
-Package hyperref Info: Link coloring ON on input line 70.
+\c@lstlisting=\count493
+Package hyperref Info: Link coloring ON on input line 75.
 (main.out) (main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
  (chapters/title-page.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -913,15 +1210,21 @@ Overfull \hbox (12.44112pt too wide) in paragraph at lines 30--31
 [7]
 
 [8])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 
 
 [9] (main.lof
-Overfull \hbox (2.57037pt too wide) in paragraph at lines 11--11
+Overfull \hbox (2.57037pt too wide) in paragraph at lines 10--10
  [][][] [][][][]\TU/lmr/m/n/12 Multi-Cloud Infrastructure Architecture showing 
 distributed deployment[][] 
+ []
+
+
+Overfull \hbox (4.96237pt too wide) in paragraph at lines 30--30
+ [][][] [][][][]\TU/lmr/m/n/12 TechMart Product Catalog demonstrating MongoDB-b
+ased flexible prod-[][] 
  []
 
 
@@ -930,38 +1233,32 @@ distributed deployment[][]
 
 
 ]
-Overfull \hbox (4.96237pt too wide) in paragraph at lines 32--32
- [][][] [][][][]\TU/lmr/m/n/12 TechMart Product Catalog demonstrating MongoDB-b
-ased flexible prod-[][] 
- []
-
-
-Overfull \hbox (2.00638pt too wide) in paragraph at lines 36--36
+Overfull \hbox (2.00638pt too wide) in paragraph at lines 34--34
  [][][] [][][][]\TU/lmr/m/n/12 TechMart User Orders page demonstrating order ma
 nagement and trans-[][] 
  []
 
 
-Overfull \hbox (2.32237pt too wide) in paragraph at lines 38--38
+Overfull \hbox (2.32237pt too wide) in paragraph at lines 36--36
  [][][] [][][][]\TU/lmr/m/n/12 TechMart User Management interface demonstrating
  administrative user[][] 
  []
 
 
-Overfull \hbox (2.04108pt too wide) in paragraph at lines 41--41
+Overfull \hbox (2.04108pt too wide) in paragraph at lines 38--38
  [][][] [][][][]\TU/lmr/m/n/12 GitHub Actions Workflows showing CI/CD pipeline 
 automation in progress[][][] [] [] 
  []
 
 )
-\tf@lof=\write5
-\openout5 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
 
 
 [11] (main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
 
 
@@ -970,6 +1267,32 @@ automation in progress[][][] [] []
 
 ] (chapters/01-introduction.tex
 Chapter 1.
+
+LaTeX Warning: Hyper reference `docker2023documentation' on page 1 undefined on
+ input line 8.
+
+
+LaTeX Warning: Hyper reference `kubernetes_docs' on page 1 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Hyper reference `fowler2013continuous' on page 1 undefined on in
+put line 10.
+
+
+Overfull \hbox (4.3503pt too wide) in paragraph at lines 10--11
+[][]\TU/lmr/bx/n/12 Traditional Continuous Integration and Continuous Deploymen
+t (CI/CD)[]
+ []
+
+
+LaTeX Warning: Hyper reference `argo_cd_docs' on page 1 undefined on input line
+ 15.
+
+
+LaTeX Warning: Hyper reference `flux2023' on page 1 undefined on input line 15.
+
+
 
 
 [1
@@ -993,21 +1316,45 @@ File: figures/research-methodology.png Graphic file (type bmp)
 
 [5]
 
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 6 undefined on in
+put line 110.
+
+
+
 [6]
-Overfull \hbox (10.3383pt too wide) in paragraph at lines 132--133
+
+[7]
+Overfull \hbox (10.3383pt too wide) in paragraph at lines 134--135
 []\TU/lmr/m/n/12 ture research directions while providing practical recommendat
 ions for enterprise method-[]
  []
 
 ) (chapters/02-background.tex
 
-[7]
+[8]
 Chapter 2.
 
+LaTeX Warning: Hyper reference `fowler2013continuous' on page 9 undefined on in
+put line 13.
 
-[8
+
+LaTeX Warning: Hyper reference `kim2016devops' on page 9 undefined on input lin
+e 13.
+
+
+
+[9
 
 ]
+
+LaTeX Warning: Hyper reference `weaveworks2017gitops' on page 10 undefined on i
+nput line 26.
+
+
+LaTeX Warning: Hyper reference `beetz2021gitops' on page 10 undefined on input 
+line 26.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 [][]|\TU/lmr/bx/n/8 Deployment[]
  []
@@ -1032,12 +1379,19 @@ ype bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+LaTeX Warning: Hyper reference `argo_cd_docs' on page 10 undefined on input lin
+e 82.
 
-[9]
-Overfull \hbox (9.16231pt too wide) in paragraph at lines 92--93
-[]\TU/lmr/m/n/12 declarative management capabilities where users specify desire
-d application state through[]
- []
+
+
+[10]
+
+LaTeX Warning: Hyper reference `docker2023documentation' on page 11 undefined o
+n input line 90.
+
+
+LaTeX Warning: Hyper reference `kubernetes_docs' on page 11 undefined on input 
+line 92.
 
 
 Overfull \hbox (0.45027pt too wide) in paragraph at lines 96--97
@@ -1047,62 +1401,86 @@ nabling consistent deployment pat-[]
 
 
 
-[10]
+[11]
 File: figures/Multi-Cloud-Architecture-Diagram.png Graphic file (type bmp)
 <figures/Multi-Cloud-Architecture-Diagram.png>
 
 
-[11]
-Overfull \hbox (4.00545pt too wide) in paragraph at lines 136--136
+[12]
+Overfull \hbox (4.00545pt too wide) in paragraph at lines 139--139
 [][]|\TU/lmr/bx/n/10.95 Methodology| []
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 142--142
+Underfull \hbox (badness 1117) in paragraph at lines 145--145
 [][]|\TU/lmr/m/n/10.95 Product Ser-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 [][]|\TU/lmr/m/n/10.95 Traditional[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 [][]|\TU/lmr/m/n/10.95 Platform optimiza-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]|\TU/lmr/m/n/10.95 Traditional[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 [][]|\TU/lmr/m/n/10.95 Enterprise frame-[]
  []
 
 
 
-[12]
-
 [13]
-Overfull \hbox (14.32231pt too wide) in paragraph at lines 208--209
+
+LaTeX Warning: Hyper reference `fenton2014software' on page 14 undefined on inp
+ut line 165.
+
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 14 undefined on i
+nput line 174.
+
+
+
+[14]
+Overfull \hbox (14.32231pt too wide) in paragraph at lines 211--212
 [][]\TU/lmr/m/n/12 Cost optimization and performance studies typically analyze 
 individual cloud providers[]
  []
 
 
 
-[14]
-Overfull \hbox (24.2543pt too wide) in paragraph at lines 230--231
+[15]
+
+LaTeX Warning: Hyper reference `prometheus2023documentation' on page 16 undefin
+ed on input line 233.
+
+
+Overfull \hbox (24.2543pt too wide) in paragraph at lines 233--234
 [][]\TU/lmr/bx/n/12 Prometheus: \TU/lmr/m/n/12 Time-series metrics collection w
 ith powerful query language (PromQL)[]
  []
 
-) (chapters/03-requirements.tex
 
-[15]
+LaTeX Warning: Hyper reference `grafana2023documentation' on page 16 undefined 
+on input line 234.
+
+
+LaTeX Warning: Hyper reference `github_actions2023' on page 16 undefined on inp
+ut line 235.
+
+
+
+[16]) (chapters/03-requirements.tex
+
+[17]
 Chapter 3.
 
 Overfull \hbox (25.4831pt too wide) in paragraph at lines 9--10
@@ -1111,8 +1489,20 @@ ture strategy, methodology-[]
  []
 
 
+LaTeX Warning: Hyper reference `cloud_native_patterns' on page 18 undefined on 
+input line 17.
 
-[16
+
+LaTeX Warning: Hyper reference `heroku_platform2023' on page 18 undefined on in
+put line 22.
+
+
+LaTeX Warning: Hyper reference `github_education2023' on page 18 undefined on i
+nput line 24.
+
+
+
+[18
 
 ]
 Overfull \hbox (6.75496pt too wide) in paragraph at lines 43--43
@@ -1206,186 +1596,229 @@ Overfull \hbox (8.82439pt too wide) in paragraph at lines 41--54
 
 
 
-[17]
+[19]
 File: figures/Resource-Constrained-Architecture-Strategy.png Graphic file (type
  bmp)
 <figures/Resource-Constrained-Architecture-Strategy.png>
 
 
-[18]
-Overfull \hbox (20.20628pt too wide) in paragraph at lines 97--98
-[][]\TU/lmr/m/n/12 Kustomize integration requirements encompassed overlay manag
-ement for environment-[]
- []
-
-
-Overfull \hbox (17.63472pt too wide) in paragraph at lines 104--104
-[][]\TU/lmr/bx/n/14.4 Traditional CI/CD Implementation Requirements (Heroku[]
- []
-
-
-
-[19]
-Overfull \hbox (3.5031pt too wide) in paragraph at lines 131--132
-[]\TU/lmr/m/n/12 Cross-methodology coordination encompassed deployment synchron
-ization, dependency[]
- []
-
-
-Overfull \hbox (7.50099pt too wide) in paragraph at lines 133--134
-[][]\TU/lmr/m/n/12 Authentication propagation requirements included JWT token v
-alidation and service-[]
- []
+LaTeX Warning: Hyper reference `argo_cd_docs' on page 20 undefined on input lin
+e 88.
 
 
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[][]|\TU/lmr/bx/n/10.95 Requirement[]
+
+LaTeX Warning: Hyper reference `kubernetes_docs' on page 21 undefined on input 
+line 95.
+
+
+Overfull \hbox (9.9983pt too wide) in paragraph at lines 95--96
+[]\TU/lmr/m/n/12 Declarative configuration management required comprehensive \T
+U/lmr/bx/n/12 Infrastructure as Code[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[][]|\TU/lmr/bx/n/10.95 GitOps Implementation[]
+LaTeX Warning: Hyper reference `kubernetes_docs' on page 21 undefined on input 
+line 99.
+
+
+Overfull \hbox (37.50629pt too wide) in paragraph at lines 99--100
+[][]\TU/lmr/bx/n/12 Kustomize integration \TU/lmr/m/n/12 requirements encompass
+ed overlay management for environment-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-[][]|\TU/lmr/bx/n/10.95 Traditional CI/CD[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[][]|\TU/lmr/bx/n/10.95 Deployment[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[][]|\TU/lmr/m/n/10.95 Declarative configuration[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\TU/lmr/m/n/10.95 through Git repositories,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[][]|\TU/lmr/m/n/10.95 Imperative deployment[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[]\TU/lmr/m/n/10.95 pipelines, GitHub Actions[]
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 143--144
-[]\TU/lmr/m/n/10.95 workflows, manual approval[]
- []
-
-
-Overfull \hbox (4.54355pt too wide) in paragraph at lines 145--145
-[][]|\TU/lmr/bx/n/10.95 Configuration[]
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 145--145
-[]\TU/lmr/m/n/10.95 Kubernetes manifests, Kus-[]
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 145--146
-[][]|\TU/lmr/m/n/10.95 Platform-as-a-Service config-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[][]|\TU/lmr/bx/n/10.95 Automation[]
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 147--147
-[][]|\TU/lmr/m/n/10.95 Fully automated drift de-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[][]|\TU/lmr/bx/n/10.95 Monitoring[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]\TU/lmr/bx/n/10.95 Require-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[][]|\TU/lmr/m/n/10.95 Kubernetes-native moni-[]
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 149--149
-[]\TU/lmr/m/n/10.95 toring, Prometheus metrics[]
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 149--149
-[]\TU/lmr/m/n/10.95 collection, ArgoCD health[]
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 149--150
-[][]|\TU/lmr/m/n/10.95 Heroku metrics integration,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[][]|\TU/lmr/bx/n/10.95 Rollback[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-[]\TU/lmr/m/n/10.95 platform-assisted recovery,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[][]|\TU/lmr/bx/n/10.95 Security[]
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 153--153
-[][]|\TU/lmr/m/n/10.95 RBAC through Kubernetes,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[][]|\TU/lmr/m/n/10.95 Platform-managed security,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[]\TU/lmr/m/n/10.95 Heroku access controls,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[][]|\TU/lmr/bx/n/10.95 Operational[]
+Overfull \hbox (17.63472pt too wide) in paragraph at lines 106--106
+[][]\TU/lmr/bx/n/14.4 Traditional CI/CD Implementation Requirements (Heroku[]
  []
 
 
 
 [21]
 
+LaTeX Warning: Hyper reference `github_actions2023' on page 22 undefined on inp
+ut line 111.
+
+
+LaTeX Warning: Hyper reference `heroku_buildpacks2023' on page 22 undefined on 
+input line 120.
+
+
+Overfull \hbox (3.5031pt too wide) in paragraph at lines 133--134
+[]\TU/lmr/m/n/12 Cross-methodology coordination encompassed deployment synchron
+ization, dependency[]
+ []
+
+
+LaTeX Warning: Hyper reference `jwt_rfc7519' on page 22 undefined on input line
+ 135.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[][]|\TU/lmr/bx/n/10.95 Requirement[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[][]|\TU/lmr/bx/n/10.95 GitOps Implementation[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[][]|\TU/lmr/bx/n/10.95 Traditional CI/CD[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[][]|\TU/lmr/bx/n/10.95 Deployment[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[][]|\TU/lmr/m/n/10.95 Declarative configuration[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]\TU/lmr/m/n/10.95 through Git repositories,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+[][]|\TU/lmr/m/n/10.95 Imperative deployment[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+[]\TU/lmr/m/n/10.95 pipelines, GitHub Actions[]
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 145--146
+[]\TU/lmr/m/n/10.95 workflows, manual approval[]
+ []
+
+
+Overfull \hbox (4.54355pt too wide) in paragraph at lines 147--147
+[][]|\TU/lmr/bx/n/10.95 Configuration[]
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 147--147
+[]\TU/lmr/m/n/10.95 Kubernetes manifests, Kus-[]
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 147--148
+[][]|\TU/lmr/m/n/10.95 Platform-as-a-Service config-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[][]|\TU/lmr/bx/n/10.95 Automation[]
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 149--149
+[][]|\TU/lmr/m/n/10.95 Fully automated drift de-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[][]|\TU/lmr/bx/n/10.95 Monitoring[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\TU/lmr/bx/n/10.95 Require-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[][]|\TU/lmr/m/n/10.95 Kubernetes-native moni-[]
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 151--151
+[]\TU/lmr/m/n/10.95 toring, Prometheus metrics[]
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 151--151
+[]\TU/lmr/m/n/10.95 collection, ArgoCD health[]
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 151--152
+[][]|\TU/lmr/m/n/10.95 Heroku metrics integration,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][]|\TU/lmr/bx/n/10.95 Rollback[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[]\TU/lmr/m/n/10.95 platform-assisted recovery,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[][]|\TU/lmr/bx/n/10.95 Security[]
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 155--155
+[][]|\TU/lmr/m/n/10.95 RBAC through Kubernetes,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[][]|\TU/lmr/m/n/10.95 Platform-managed security,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[]\TU/lmr/m/n/10.95 Heroku access controls,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[][]|\TU/lmr/bx/n/10.95 Operational[]
+ []
+
+
+
 [22]
 
-[23]) (chapters/04-design.tex
+[23]
+
+LaTeX Warning: Hyper reference `cohen_statistical1988' on page 24 undefined on 
+input line 193.
+
+
+LaTeX Warning: Hyper reference `multicloud_patterns2023' on page 24 undefined o
+n input line 207.
+
+
 
 [24]
 
-[25]
+LaTeX Warning: Hyper reference `prometheus_docs2023' on page 25 undefined on in
+put line 221.
+
+
+
+[25]) (chapters/04-design.tex
+
+[26]
 Chapter 4.
+
+LaTeX Warning: Hyper reference `evans2003domain' on page 27 undefined on input 
+line 15.
+
 
 Overfull \hbox (4.81831pt too wide) in paragraph at lines 15--16
 []\TU/lmr/m/n/12 The TechMart platform implements a four-service microservices 
@@ -1459,458 +1892,510 @@ Overfull \hbox (8.8244pt too wide) in paragraph at lines 25--38
 
 
 
-[26
+[27
 
 ]
-File: figures/chapter4/class-diagram.png Graphic file (type bmp)
-<figures/chapter4/class-diagram.png>
-
-Overfull \hbox (16.41829pt too wide) in paragraph at lines 49--50
+Overfull \hbox (16.41829pt too wide) in paragraph at lines 42--43
 [][]\TU/lmr/bx/n/12 Python FastAPI: \TU/lmr/m/n/12 Modern async framework for c
 omplex business logic (User/Order[]
  []
 
-
-
-[27]
 File: figures/Complete-System-Architecture-Diagram.png Graphic file (type bmp)
 <figures/Complete-System-Architecture-Diagram.png>
 
-Overfull \hbox (9.80229pt too wide) in paragraph at lines 68--69
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (9.80229pt too wide) in paragraph at lines 63--64
 []\TU/lmr/m/n/12 The microservices architecture implements sophisticated commun
 ication patterns demon-[]
  []
 
 
+LaTeX Warning: Hyper reference `jwt_rfc7519' on page 28 undefined on input line
+ 67.
+
+
 
 [28]
-Overfull \hbox (2.2023pt too wide) in paragraph at lines 131--132
+
+[29]
+Overfull \hbox (2.2023pt too wide) in paragraph at lines 126--127
 []\TU/lmr/m/n/12 proach provides the controlled experimental environment necess
 ary for rigorous method-[]
  []
 
-
-
-[29]
 File: figures/chapter4/multi-cloud-infrastructure.png Graphic file (type bmp)
 <figures/chapter4/multi-cloud-infrastructure.png>
 
 
 [30]
+
+LaTeX Warning: Hyper reference `weaveworks2017gitops' on page 31 undefined on i
+nput line 141.
+
 File: figures/chapter4/argocd-application-details.png Graphic file (type bmp)
 <figures/chapter4/argocd-application-details.png>
-File: figures/chapter4/gke-cluster-architecture.png Graphic file (type bmp)
-<figures/chapter4/gke-cluster-architecture.png>
 
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+File: figures/chapter4/gke-cluster-architecture.png Graphic file (type bmp)
+<figures/chapter4/gke-cluster-architecture.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 [][]|\TU/lmr/bx/n/12 Memory[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []\TU/lmr/bx/n/12 Re-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 [][]|\TU/lmr/bx/n/12 CPU Re-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 [][]|\TU/lmr/bx/n/12 Special Con-[]
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 190--191
+Underfull \hbox (badness 5203) in paragraph at lines 191--192
 [][]|\TU/lmr/m/n/12 Kubernetes Se-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 [][]|\TU/lmr/m/n/12 Extended[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 [][]|\TU/lmr/m/n/12 Multi-service[]
  []
 
 
-Overfull \hbox (23.63278pt too wide) in paragraph at lines 186--195
+Overfull \hbox (23.63278pt too wide) in paragraph at lines 187--196
  [][][][] 
  []
 
-File: figures/chapter4/kubernetes-cluster-overview.png Graphic file (type bmp)
-<figures/chapter4/kubernetes-cluster-overview.png>
 
 
 [32]
-Overfull \hbox (7.0703pt too wide) in paragraph at lines 208--209
+File: figures/chapter4/kubernetes-cluster-overview.png Graphic file (type bmp)
+<figures/chapter4/kubernetes-cluster-overview.png>
+
+Overfull \hbox (7.0703pt too wide) in paragraph at lines 211--212
 []\TU/lmr/m/n/12 ingress configuration demonstrates advanced routing patterns w
 ith comprehensive CORS[]
  []
 
+
+
+[33]
 File: figures/chapter4/github-actions-workflows-overview.png Graphic file (type
  bmp)
 <figures/chapter4/github-actions-workflows-overview.png>
 
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 [][]|\TU/lmr/m/n/12 NPM dependency man-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 [][]|\TU/lmr/m/n/12 Gradle caching, Spring[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 []\TU/lmr/m/n/12 Boot packaging, JVM[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 241--250
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 246--255
  [][][][] 
  []
 
-File: figures/chapter4/gitops-workflow-design.png Graphic file (type bmp)
-<figures/chapter4/gitops-workflow-design.png>
 
 
 [34]
+File: figures/chapter4/gitops-workflow-design.png Graphic file (type bmp)
+<figures/chapter4/gitops-workflow-design.png>
 File: figures/chapter4/traditional-cicd-workflow-design.png Graphic file (type 
 bmp)
 <figures/chapter4/traditional-cicd-workflow-design.png>
+
+
+[35]
 File: figures/chapter4/heroku-apps-overview.png Graphic file (type bmp)
 <figures/chapter4/heroku-apps-overview.png>
 
 
-[35]
-
 [36]
+
+[37]
 File: figures/chapter4/argocd-git-repository-config.png Graphic file (type bmp)
 
 <figures/chapter4/argocd-git-repository-config.png>
 
-Overfull \hbox (3.48633pt too wide) in paragraph at lines 332--333
+Overfull \hbox (3.48633pt too wide) in paragraph at lines 345--346
 []\TU/lmr/m/n/12 ment across multiple cloud platforms. The IaC implementation d
 emonstrates enterprise-[]
  []
 
 
 
-[37]
-Overfull \hbox (10.05429pt too wide) in paragraph at lines 368--369
+[38]
+Overfull \hbox (10.05429pt too wide) in paragraph at lines 381--382
 []\TU/lmr/m/n/12 demonstrating enterprise-grade container orchestration with ad
 vanced deployment strate-[]
  []
 
 
-Overfull \hbox (1.32228pt too wide) in paragraph at lines 372--373
+Overfull \hbox (1.32228pt too wide) in paragraph at lines 385--386
 []\TU/lmr/m/n/12 The GitOps services implement sophisticated Kubernetes Deploym
 ent resources demon-[]
  []
 
 
 
-[38]
-
 [39]
 
 [40]
 
 [41]
-Underfull \hbox (badness 4765) in paragraph at lines 507--507
+
+[42]
+Underfull \hbox (badness 4765) in paragraph at lines 520--520
 [][]|\TU/lmr/bx/n/12 Data Characteris-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--509
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
 [][]|\TU/lmr/m/n/12 Neon Post-[]
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 509--509
+Underfull \hbox (badness 2197) in paragraph at lines 522--522
 [][]|\TU/lmr/m/n/12 Transactional, ACID[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 [][]|\TU/lmr/m/n/12 Complex relation-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 [][]|\TU/lmr/m/n/12 Variable attributes,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--513
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 [][]|\TU/lmr/m/n/12 High-performance,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 [][]|\TU/lmr/m/n/12 Caching, temporary[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 505--516
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 518--529
  [][][][] 
  []
 
 
 
-[42]
-
 [43]
 
 [44]
-Overfull \hbox (3.0303pt too wide) in paragraph at lines 617--618
+
+[45]
+Overfull \hbox (3.0303pt too wide) in paragraph at lines 630--631
 [][]\TU/lmr/m/n/12 Detailed visibility into platform resource utilization acros
 s Kubernetes and Heroku []
+ []
+
+
+Overfull \hbox (0.12633pt too wide) in paragraph at lines 650--651
+[][]\TU/lmr/m/n/12 Figure [][][]4.11[][][] outlines the comprehensive research 
+methodology framework that guides[]
  []
 
 File: figures/Research-Methodology-Framework.png Graphic file (type bmp)
 <figures/Research-Methodology-Framework.png>
 
 
-[45]
-Overfull \hbox (17.2103pt too wide) in paragraph at lines 650--651
+[46]
+Overfull \hbox (17.2103pt too wide) in paragraph at lines 665--666
 []\TU/lmr/m/n/12 Phase 1 implements controlled single-service comparison establ
 ishing fundamental method-[]
  []
 
 
 
-[46]
+[47]
 File: figures/Complexity-Normalization-Process.png Graphic file (type bmp)
 <figures/Complexity-Normalization-Process.png>
 
-Overfull \hbox (11.1705pt too wide) in paragraph at lines 713--713
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (11.1705pt too wide) in paragraph at lines 730--730
 [][]|\TU/lmr/bx/n/12 Complexity[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 [][]|\TU/lmr/bx/n/12 Normalized[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\TU/lmr/bx/n/12 Perfor-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
 [][]|\TU/lmr/bx/n/12 Technology[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--715
+Underfull \hbox (badness 10000) in paragraph at lines 732--732
 [][]|\TU/lmr/m/n/12 17.3s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
 [][]|\TU/lmr/m/n/12 Python +[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--717
+Underfull \hbox (badness 10000) in paragraph at lines 734--734
 [][]|\TU/lmr/m/n/12 15.8s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--721
+Underfull \hbox (badness 10000) in paragraph at lines 738--738
 [][]|\TU/lmr/m/n/12 12.4s per[]
  []
 
 
 
-[47]
-
 [48]
-Overfull \hbox (14.26631pt too wide) in paragraph at lines 796--797
+
+[49]
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 50 undefined on i
+nput line 791.
+
+
+
+[50]
+Overfull \hbox (14.26631pt too wide) in paragraph at lines 813--814
 []\TU/lmr/m/n/12 The research implements comprehensive performance attribution 
 separating methodology-[]
  []
 
 
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 805--805
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
 [][]|\TU/lmr/bx/n/12 Performance Fac-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
 [][]|\TU/lmr/bx/n/12 Optimization Po-[]
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 807--807
+Underfull \hbox (badness 7851) in paragraph at lines 824--824
 [][]|\TU/lmr/m/n/12 Authentication Con-[]
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 807--808
+Underfull \hbox (badness 2990) in paragraph at lines 824--825
 [][]|\TU/lmr/m/n/12 30-40% improvement[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--811
+Underfull \hbox (badness 10000) in paragraph at lines 828--828
 [][]|\TU/lmr/m/n/12 Pure Methodology[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--811
+Underfull \hbox (badness 10000) in paragraph at lines 828--828
 [][]|\TU/lmr/m/n/12 Deployment-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
+Underfull \hbox (badness 10000) in paragraph at lines 828--829
 [][]|\TU/lmr/m/n/12 Architecture trade-[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 803--814
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 820--831
  [][][][] 
  []
 
 
-Overfull \hbox (7.81432pt too wide) in paragraph at lines 826--827
+Overfull \hbox (7.81432pt too wide) in paragraph at lines 843--844
 []\TU/lmr/m/n/12 The research validates industry-first zero-overhead hybrid arc
 hitecture feasibility through[]
  []
 
 
 
-[50]) (chapters/05-implementation.tex
-
 [51]
 
-[52]
+[52]) (chapters/05-implementation.tex
+
+[53]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+LaTeX Warning: Hyper reference `multicloud_patterns2023' on page 54 undefined o
+n input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][]|\TU/lmr/bx/n/12 Deployment[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 [][]|\TU/lmr/m/n/12 Google Kuber-[]
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 29--29
+Underfull \hbox (badness 4328) in paragraph at lines 30--30
 [][]|\TU/lmr/m/n/12 GitOps + Ar-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []\TU/lmr/m/n/12 declarative management,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][]|\TU/lmr/m/n/12 Heroku Con-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][]|\TU/lmr/m/n/12 Product, Cart[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][]|\TU/lmr/m/n/12 Traditional[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 [][]|\TU/lmr/m/n/12 Neon Post-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 [][]|\TU/lmr/m/n/12 Managed rela-[]
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 35--35
+Underfull \hbox (badness 3449) in paragraph at lines 36--36
 [][]|\TU/lmr/m/n/12 Managed docu-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 [][]|\TU/lmr/m/n/12 Cart, Order[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 [][]|\TU/lmr/m/n/12 Managed in-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 []\TU/lmr/m/n/12 management, distributed[]
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 39--39
+Underfull \hbox (badness 2717) in paragraph at lines 40--40
 [][]|\TU/lmr/m/n/12 Frontend appli-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][]|\TU/lmr/m/n/12 Serverless de-[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 25--42
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 26--43
  [][][][] 
  []
 
 
 
-[53
+[54
 
 ]
 File: figures/Infrastructure-Deployment-Diagram.png Graphic file (type bmp)
 <figures/Infrastructure-Deployment-Diagram.png>
-File: figures/Infrastructure-Deployment-Diagram.png Graphic file (type bmp)
-<figures/Infrastructure-Deployment-Diagram.png>
 
 
-[54]
-Overfull \hbox (5.8648pt too wide) in paragraph at lines 61--62
+[55]
+Overfull \hbox (5.8648pt too wide) in paragraph at lines 58--59
 [][]\TU/lmr/bx/n/12 Traditional CI/CD Platform (Heroku): \TU/lmr/m/n/12 Optimal
  for demonstrating platform-[]
  []
 
 
+LaTeX Warning: Hyper reference `gitops2021' on page 56 undefined on input line 
+87.
 
-[55]
+
+LaTeX Warning: Hyper reference `declarative2022' on page 56 undefined on input 
+line 87.
+
+
+LaTeX Warning: Hyper reference `selfhealing2023' on page 56 undefined on input 
+line 87.
+
+
+
+[56]
 File: figures/chapter5/argocd-deployment-sync.png Graphic file (type bmp)
 <figures/chapter5/argocd-deployment-sync.png>
 File: figures/chapter5/argocd-deployment-history.png Graphic file (type bmp)
 <figures/chapter5/argocd-deployment-history.png>
 
 
-[56]
-
 [57]
+
+LaTeX Warning: Hyper reference `paas2022' on page 58 undefined on input line 12
+6.
+
+
+LaTeX Warning: Hyper reference `cicd2020' on page 58 undefined on input line 12
+6.
+
+
+LaTeX Warning: Hyper reference `approvals2021' on page 58 undefined on input li
+ne 126.
+
+
+
+[58]
 File: figures/chapter5/heroku-deployment-logs.png Graphic file (type bmp)
 <figures/chapter5/heroku-deployment-logs.png>
 
 
-[58]
+[59]
 File: figures/chapter5/postgresql-database-user-tables.png Graphic file (type b
 mp)
 <figures/chapter5/postgresql-database-user-tables.png>
@@ -1921,106 +2406,119 @@ File: figures/chapter5/mongodb-collections.png Graphic file (type bmp)
 <figures/chapter5/mongodb-collections.png>
 
 
-[59]
+[60]
 File: figures/chapter5/redis-cache-data.png Graphic file (type bmp)
 <figures/chapter5/redis-cache-data.png>
 
 
-[60]
-
 [61]
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 62 undefined on
+ input line 271.
+
+
+LaTeX Warning: Hyper reference `software_complexity_metrics' on page 62 undefin
+ed on input line 271.
+
+
+LaTeX Warning: Hyper reference `fenton2014software' on page 62 undefined on inp
+ut line 271.
+
+
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 [][]|\TU/lmr/bx/n/12 Technology[]
  []
 
 
-Overfull \hbox (11.1705pt too wide) in paragraph at lines 267--267
+Overfull \hbox (11.1705pt too wide) in paragraph at lines 281--281
 [][]|\TU/lmr/bx/n/12 Complexity[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 [][]|\TU/lmr/bx/n/12 Key Imple-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []\TU/lmr/bx/n/12 mentation[]
  []
 
 
-Underfull \hbox (badness 7308) in paragraph at lines 269--269
+Underfull \hbox (badness 7308) in paragraph at lines 283--283
 [][]|\TU/lmr/m/n/12 JWT authenti-[]
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 269--269
+Underfull \hbox (badness 6110) in paragraph at lines 283--283
 []\TU/lmr/m/n/12 cation, RBAC,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 [][]|\TU/lmr/m/n/12 Authentication[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 [][]|\TU/lmr/m/n/12 Multi-database[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\TU/lmr/m/n/12 integration,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\TU/lmr/m/n/12 complex trans-[]
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 273--273
+Underfull \hbox (badness 2065) in paragraph at lines 287--287
 [][]|\TU/lmr/m/n/12 Product Ser-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 [][]|\TU/lmr/m/n/12 Catalog man-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 [][]|\TU/lmr/m/n/12 Java Spring[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 [][]|\TU/lmr/m/n/12 Reactive pro-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []\TU/lmr/m/n/12 performance[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 [][]|\TU/lmr/m/n/12 Technology stack[]
  []
 
 
-Overfull \hbox (23.63278pt too wide) in paragraph at lines 265--278
+Overfull \hbox (23.63278pt too wide) in paragraph at lines 279--292
  [][][][] 
  []
 
 
-Overfull \hbox (16.6903pt too wide) in paragraph at lines 284--285
+Overfull \hbox (16.6903pt too wide) in paragraph at lines 298--299
 [][]\TU/lmr/bx/n/12 Java Spring Boot: \TU/lmr/m/n/12 Implemented for reactive p
 rogramming patterns and enterprise-[]
  []
 
 
-Overfull \hbox (20.13521pt too wide) in paragraph at lines 285--286
+Overfull \hbox (20.13521pt too wide) in paragraph at lines 299--300
 [][]\TU/lmr/bx/n/12 Database Diversity: \TU/lmr/m/n/12 PostgreSQL (ACID complia
 nce), MongoDB (flexible schema),[]
  []
@@ -2029,19 +2527,32 @@ File: figures/chapter5/techmart-products-catalog.png Graphic file (type bmp)
 <figures/chapter5/techmart-products-catalog.png>
 
 
-[62]
+[63]
 File: figures/chapter5/techmart-product-details.png Graphic file (type bmp)
 <figures/chapter5/techmart-product-details.png>
 
-
-[63]
 
 [64]
 
 [65]
 
 [66]
-Overfull \hbox (7.41164pt too wide) in paragraph at lines 409--411
+
+LaTeX Warning: Hyper reference `jwt_rfc7519' on page 67 undefined on input line
+ 416.
+
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 67 undefined on
+ input line 416.
+
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 67 undefined on
+ input line 416.
+
+
+
+[67]
+Overfull \hbox (7.41164pt too wide) in paragraph at lines 428--430
 []\TU/lmr/m/n/12 65% of performance differences. This finding challenges assump
 tions about methodology-[]
  []
@@ -2050,270 +2561,299 @@ File: figures/chapter5/techmart-shopping-cart.png Graphic file (type bmp)
 <figures/chapter5/techmart-shopping-cart.png>
 
 
-[67]
+[68]
 File: figures/chapter5/techmart-user-dashboard.png Graphic file (type bmp)
 <figures/chapter5/techmart-user-dashboard.png>
 File: figures/chapter5/techmart-user-orders.png Graphic file (type bmp)
 <figures/chapter5/techmart-user-orders.png>
 
 
-[68]
-
 [69]
+
+[70]
 File: figures/chapter5/techmart-admin-dashboard.png Graphic file (type bmp)
 <figures/chapter5/techmart-admin-dashboard.png>
 File: figures/chapter5/techmart-user-management.png Graphic file (type bmp)
 <figures/chapter5/techmart-user-management.png>
 
 
-[70]
+[71]
 File: figures/chapter5/techmart-order-management.png Graphic file (type bmp)
 <figures/chapter5/techmart-order-management.png>
 
 
-[71]
-Overfull \hbox (0.193pt too wide) in paragraph at lines 515--516
+[72]
+Overfull \hbox (0.193pt too wide) in paragraph at lines 548--549
 []\TU/lmr/m/n/12 The GitHub Actions implementation provides comprehensive CI/CD
  automation across[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
 [][]|\TU/lmr/bx/n/12 Research Instru-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 [][]|\TU/lmr/m/n/12 User Service[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 [][]|\TU/lmr/m/n/12 Python FastAPI,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 [][]|\TU/lmr/m/n/12 Complexity score[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 []\TU/lmr/m/n/12 7.8/10, Grafana[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
 [][]|\TU/lmr/m/n/12 Order Service[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
 []\TU/lmr/m/n/12 extended testing,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 [][]|\TU/lmr/m/n/12 Complexity score[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 535--544
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 561--570
  [][][][] 
  []
 
 
-Overfull \hbox (15.05829pt too wide) in paragraph at lines 549--550
+Overfull \hbox (15.05829pt too wide) in paragraph at lines 575--576
 [][]\TU/lmr/m/n/12 Docker image creation with research-specific tagging (task1a
 -improved-SHA, task1b-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
 [][]|\TU/lmr/bx/n/12 Research Instru-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 [][]|\TU/lmr/m/n/12 Complexity score[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 [][]|\TU/lmr/m/n/12 Cart Service[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 [][]|\TU/lmr/m/n/12 Java Spring Boot,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 [][]|\TU/lmr/m/n/12 Complexity score[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/lmr/m/n/12 7.5/10, JVM opti-[]
  []
 
 
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 562--571
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 588--597
  [][][][] 
  []
 
 
 
-[72]
+[73]
 File: figures/chapter5/github-actions-running.png Graphic file (type bmp)
 <figures/chapter5/github-actions-running.png>
 File: figures/chapter5/docker-images-registry.png Graphic file (type bmp)
 <figures/chapter5/docker-images-registry.png>
 
 
-[73]
-Overfull \hbox (14.7863pt too wide) in paragraph at lines 599--600
+[74]
+Overfull \hbox (14.7863pt too wide) in paragraph at lines 630--631
 []\TU/lmr/m/n/12 The pipeline implementations enable direct methodology perform
 ance comparison through[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
 [][]|\TU/lmr/bx/n/12 Technology[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
 [][]|\TU/lmr/bx/n/12 Complexity[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
 [][]|\TU/lmr/bx/n/12 Normalized[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
 []\TU/lmr/bx/n/12 Perfor-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 [][]|\TU/lmr/bx/n/12 Efficiency[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--612
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
 [][]|\TU/lmr/m/n/12 Highest effi-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 [][]|\TU/lmr/m/n/12 12.4s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 644--645
 [][]|\TU/lmr/m/n/12 Platform opti-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 646--646
 [][]|\TU/lmr/m/n/12 15.8s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--617
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 [][]|\TU/lmr/m/n/12 Python +[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--617
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 [][]|\TU/lmr/m/n/12 17.3s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
 [][]|\TU/lmr/m/n/12 Dual depen-[]
  []
 
 
 
-[74]
-
 [75]
-Overfull \hbox (2.4223pt too wide) in paragraph at lines 681--682
+
+[76]
+
+LaTeX Warning: Hyper reference `empirical_software_engineering' on page 77 unde
+fined on input line 712.
+
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 77 undefined on i
+nput line 712.
+
+
+LaTeX Warning: Hyper reference `fowler2013continuous' on page 77 undefined on i
+nput line 712.
+
+
+Overfull \hbox (2.4223pt too wide) in paragraph at lines 712--713
 []\TU/lmr/m/n/12 The workflow implementations include comprehensive performance
  measurement frame-[]
  []
 
 
 
-[76]
-
 [77]
+
+[78]
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 79 undefined on
+ input line 761.
+
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 79 undefined on
+ input line 761.
+
+
+LaTeX Warning: Hyper reference `fenton2014software' on page 79 undefined on inp
+ut line 761.
+
 File: figures/Database-Architecture-Diagram.png Graphic file (type bmp)
 <figures/Database-Architecture-Diagram.png>
 
 
-[78]
-Overfull \hbox (2.6543pt too wide) in paragraph at lines 754--755
+[79]
+Overfull \hbox (2.6543pt too wide) in paragraph at lines 788--789
 []\TU/lmr/m/n/12 The database provisioning leverages cloud-native managed servi
 ces providing enterprise-[]
  []
 
 
-Overfull \hbox (18.4911pt too wide) in paragraph at lines 758--759
+Overfull \hbox (18.4911pt too wide) in paragraph at lines 792--793
 []\TU/lmr/m/n/12 forcement, and asynchronous SQLAlchemy connection pooling opti
 mized for FastAPI[]
  []
 
 
-Overfull \hbox (11.793pt too wide) in paragraph at lines 772--773
+Overfull \hbox (11.793pt too wide) in paragraph at lines 806--807
 []\TU/lmr/m/n/12 The PostgreSQL schema implementation demonstrates comprehensiv
 e relational database[]
  []
 
 
-Overfull \hbox (6.74391pt too wide) in paragraph at lines 776--777
+Overfull \hbox (6.74391pt too wide) in paragraph at lines 810--811
 []\TU/lmr/m/n/12 tials, account status tracking using enum-based state manageme
 nt (active, blocked,[]
  []
 
 
 
-[79]
-Overfull \hbox (4.521pt too wide) in paragraph at lines 790--791
+[80]
+Overfull \hbox (4.521pt too wide) in paragraph at lines 824--825
 []\TU/lmr/m/n/12 The MongoDB schema implementation demonstrates comprehensive d
 ocument database[]
  []
 
 
 
-[80]
-Overfull \hbox (2.24629pt too wide) in paragraph at lines 819--820
+[81]
+Overfull \hbox (2.24629pt too wide) in paragraph at lines 853--854
 []\TU/lmr/m/n/12 The multi-service architecture implements sophisticated data i
 ntegration patterns main-[]
  []
 
 
-Overfull \hbox (1.24101pt too wide) in paragraph at lines 827--828
+Overfull \hbox (1.24101pt too wide) in paragraph at lines 861--862
 [][]\TU/lmr/bx/n/12 Inventory Management: \TU/lmr/m/n/12 Product Service update
 s MongoDB inventory records[]
  []
 
 
 
-[81]
+[82]
 
-[82]) (chapters/06-results.tex
+[83]) (chapters/06-results.tex
 
-[83]
+[84]
 Chapter 6.
 
+LaTeX Warning: Hyper reference `empirical_software_engineering' on page 85 unde
+fined on input line 11.
 
-[84
+
+
+[85
 
 ]
 Overfull \hbox (6.75496pt too wide) in paragraph at lines 30--30
@@ -2384,153 +2924,162 @@ File: figures/Performance-Comparison-Charts.png Graphic file (type bmp)
 <figures/Performance-Comparison-Charts.png>
 
 
-[85]
-Overfull \hbox (10.44391pt too wide) in paragraph at lines 86--87
+[86]
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 87 undefined on i
+nput line 64.
+
+
+LaTeX Warning: Hyper reference `software_complexity_metrics' on page 87 undefin
+ed on input line 74.
+
+
+Overfull \hbox (10.44391pt too wide) in paragraph at lines 88--89
 []\TU/lmr/m/n/12 comparison across 20 controlled test scenarios (August 2-3, 20
 25), eliminating complexity-[]
  []
 
 
-Overfull \hbox (11.1705pt too wide) in paragraph at lines 107--107
+
+[87]
+Overfull \hbox (11.1705pt too wide) in paragraph at lines 109--109
 [][]|\TU/lmr/bx/n/12 Complexity[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 [][]|\TU/lmr/bx/n/12 Normalized[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []\TU/lmr/bx/n/12 Perfor-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 [][]|\TU/lmr/m/n/12 17.3s per[]
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 109--110
+Underfull \hbox (badness 1286) in paragraph at lines 111--112
 [][]|\TU/lmr/m/n/12 Python + Pipenv[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 [][]|\TU/lmr/m/n/12 15.8s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 [][]|\TU/lmr/m/n/12 Python + Pip[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 [][]|\TU/lmr/m/n/12 Java + Gradle[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 [][]|\TU/lmr/m/n/12 12.4s per[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 [][]|\TU/lmr/m/n/12 Node.js + npm[]
  []
 
 
-Overfull \hbox (9.4064pt too wide) in paragraph at lines 105--118
- [][][][] 
- []
-
-
-
-[86]
-
-[87]
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[][]|\TU/lmr/bx/n/12 Performance Fac-[]
- []
-
-
-Overfull \hbox (5.30812pt too wide) in paragraph at lines 172--172
-[][]|\TU/lmr/bx/n/12 Contribution| []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-[][]|\TU/lmr/bx/n/12 Optimization Strat-[]
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 174--174
-[][]|\TU/lmr/m/n/12 Authentication Con-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-[][]|\TU/lmr/m/n/12 Platform alignment[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[][]|\TU/lmr/m/n/12 Pure Methodology[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[][]|\TU/lmr/m/n/12 Deployment-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-[][]|\TU/lmr/m/n/12 Architecture optimiza-[]
- []
-
-
-Overfull \hbox (11.2328pt too wide) in paragraph at lines 170--181
+Overfull \hbox (9.4064pt too wide) in paragraph at lines 107--120
  [][][][] 
  []
 
 
 
 [88]
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[][]|\TU/lmr/bx/n/12 Performance Fac-[]
+ []
+
+
+Overfull \hbox (5.30812pt too wide) in paragraph at lines 174--174
+[][]|\TU/lmr/bx/n/12 Contribution| []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[][]|\TU/lmr/bx/n/12 Optimization Strat-[]
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 176--176
+[][]|\TU/lmr/m/n/12 Authentication Con-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[][]|\TU/lmr/m/n/12 Platform alignment[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[][]|\TU/lmr/m/n/12 Pure Methodology[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[][]|\TU/lmr/m/n/12 Deployment-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+[][]|\TU/lmr/m/n/12 Architecture optimiza-[]
+ []
+
+
+Overfull \hbox (11.2328pt too wide) in paragraph at lines 172--183
+ [][][][] 
+ []
+
+
 
 [89]
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+
+[90]
+
+LaTeX Warning: Hyper reference `hypothesis_testing' on page 91 undefined on inp
+ut line 263.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 [][]|\TU/lmr/bx/n/12 Statistical[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 [][]|\TU/lmr/bx/n/12 Effect[]
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 269--270
+Underfull \hbox (badness 1622) in paragraph at lines 271--272
 [][]|\TU/lmr/bx/n/12 Practical Sig-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 [][]|\TU/lmr/m/n/12 Mann-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []\TU/lmr/m/n/12 Whitney[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 [][]|\TU/lmr/m/n/12 Perfect separa-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[][]|\TU/lmr/m/n/12 Two-sample[]
  []
 
 
@@ -2544,238 +3093,300 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+[][]|\TU/lmr/m/n/12 Two-sample[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 [][]|\TU/lmr/m/n/12 No significant[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 [][]|\TU/lmr/m/n/12 Regression[]
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 279--280
+Underfull \hbox (badness 1132) in paragraph at lines 281--282
 [][]|\TU/lmr/m/n/12 Strong relation-[]
  []
 
 
-Overfull \hbox (9.4064pt too wide) in paragraph at lines 267--282
+Overfull \hbox (9.4064pt too wide) in paragraph at lines 269--284
  [][][][] 
  []
 
 
 
-[90]
+[91]
 File: figures/Statistical-Analysis-Results.png Graphic file (type bmp)
 <figures/Statistical-Analysis-Results.png>
 
 Missing character: There is no α in font [lmroman12-regular]:mapping=tex-text;!
 
 
-[91]
-
 [92]
 
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 93 undefined on i
+nput line 337.
+
+
+LaTeX Warning: Citation 'effect_size_interpretation' on page 93 undefined on in
+put line 349.
+
+
+Overfull \hbox (21.1023pt too wide) in paragraph at lines 349--350
+[][]\TU/lmr/bx/n/12 d > 0.8: \TU/lmr/m/n/12 Large effect (substantial practical
+ difference) [] []
+ []
+
+
+LaTeX Warning: Citation 'effect_size_interpretation' on page 93 undefined on in
+put line 350.
+
+
+Overfull \hbox (27.07031pt too wide) in paragraph at lines 350--351
+[][]\TU/lmr/bx/n/12 d > 1.3: \TU/lmr/m/n/12 Very large effect (major practical 
+significance) [] []
+ []
+
+
+LaTeX Warning: Citation 'effect_size_interpretation' on page 93 undefined on in
+put line 351.
+
+
+Overfull \hbox (36.1663pt too wide) in paragraph at lines 351--352
+[][]\TU/lmr/bx/n/12 d > 2.0: \TU/lmr/m/n/12 Extremely large effect (critical bu
+siness impact) [] []
+ []
+
+
+
 [93]
-Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+
+LaTeX Warning: Hyper reference `correlation_interpretation_standards' on page 9
+4 undefined on input line 385.
+
+
+LaTeX Warning: Hyper reference `correlation_interpretation_standards' on page 9
+4 undefined on input line 386.
+
+
+LaTeX Warning: Hyper reference `statistical_power_analysis' on page 94 undefine
+d on input line 402.
+
 
 
 [94]
-Overfull \hbox (15.07112pt too wide) in paragraph at lines 454--455
+Missing character: There is no β in font [lmroman12-regular]:mapping=tex-text;!
+
+LaTeX Warning: Hyper reference `research_validity_framework' on page 95 undefin
+ed on input line 442.
+
+
+
+[95]
+
+LaTeX Warning: Hyper reference `performance_attribution' on page 96 undefined o
+n input line 450.
+
+
+Overfull \hbox (15.07112pt too wide) in paragraph at lines 457--458
 []\TU/lmr/m/n/12 performance constraint, contributing 65% of methodology perfor
 mance differences through[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 [][]|\TU/lmr/bx/n/12 Performance[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 [][]|\TU/lmr/bx/n/12 Optimization[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 [][]|\TU/lmr/bx/n/12 Implementation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
 [][]|\TU/lmr/m/n/12 30-40% reduc-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 [][]|\TU/lmr/m/n/12 Universal im-[]
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 478--479
+Underfull \hbox (badness 1616) in paragraph at lines 481--482
 [][]|\TU/lmr/m/n/12 Independent of deploy-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 [][]|\TU/lmr/m/n/12 1,000-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []\TU/lmr/m/n/12 1,200ms[]
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 480--480
+Underfull \hbox (badness 4479) in paragraph at lines 483--483
 [][]|\TU/lmr/m/n/12 Sub-500ms tar-[]
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 482--482
+Underfull \hbox (badness 5245) in paragraph at lines 485--485
 [][]|\TU/lmr/m/n/12 Revenue im-[]
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 482--483
+Underfull \hbox (badness 3965) in paragraph at lines 485--486
 [][]|\TU/lmr/m/n/12 Session caching imple-[]
  []
 
 
 
-[95]
+[96]
 File: figures/Authentication-Bottleneck-Analysis.png Graphic file (type bmp)
 <figures/Authentication-Bottleneck-Analysis.png>
 
 
-[96]
-
 [97]
-Overfull \hbox (4.6583pt too wide) in paragraph at lines 510--511
+
+[98]
+Overfull \hbox (4.6583pt too wide) in paragraph at lines 516--517
 [][]\TU/lmr/bx/n/12 Performance Optimization: \TU/lmr/m/n/12 Session caching re
 ducing authentication frequency []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 [][]|\TU/lmr/bx/n/12 Performance Fac-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 [][]|\TU/lmr/bx/n/12 Optimization[]
  []
 
 
-Overfull \hbox (7.96574pt too wide) in paragraph at lines 529--530
+Overfull \hbox (7.96574pt too wide) in paragraph at lines 535--536
 [][]|\TU/lmr/bx/n/12 Implementation[]
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 531--531
+Underfull \hbox (badness 7851) in paragraph at lines 537--537
 [][]|\TU/lmr/m/n/12 Authentication Con-[]
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 531--531
+Underfull \hbox (badness 6944) in paragraph at lines 537--537
 [][]|\TU/lmr/m/n/12 bcrypt optimization,[]
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 531--532
+Underfull \hbox (badness 4013) in paragraph at lines 537--538
 [][]|\TU/lmr/m/n/12 Immediate (1-2[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 [][]|\TU/lmr/m/n/12 Service-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 [][]|\TU/lmr/m/n/12 Platform alignment,[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 [][]|\TU/lmr/m/n/12 Strategic (1-3[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 [][]|\TU/lmr/m/n/12 Pure Methodology[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 [][]|\TU/lmr/m/n/12 Deployment-[]
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 535--536
+Underfull \hbox (badness 5637) in paragraph at lines 541--542
 [][]|\TU/lmr/m/n/12 Long-term (3-6[]
  []
 
 
-Overfull \hbox (66.31192pt too wide) in paragraph at lines 527--538
+Overfull \hbox (66.31192pt too wide) in paragraph at lines 533--544
  [][][][] 
  []
 
 
-Overfull \hbox (44.0743pt too wide) in paragraph at lines 550--551
+Overfull \hbox (44.0743pt too wide) in paragraph at lines 556--557
 [][]\TU/lmr/bx/n/12 Performance Hierarchy: \TU/lmr/m/n/12 Java/Gradle > Node.js
 /npm > Python/pip > Python/pipenv []
  []
 
 
 
-[98]
-Overfull \hbox (2.80725pt too wide) in paragraph at lines 579--579
+[99]
+Overfull \hbox (2.80725pt too wide) in paragraph at lines 585--585
 [][]|\TU/lmr/bx/n/12 Rank| []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 [][]|\TU/lmr/bx/n/12 Technology[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 [][]|\TU/lmr/bx/n/12 Build Dura-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--580
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 [][]|\TU/lmr/bx/n/12 Optimization[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 [][]|\TU/lmr/m/n/12 Platform optimiza-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 [][]|\TU/lmr/m/n/12 Reasonable perfor-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []\TU/lmr/m/n/12 mance, compilation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--587
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 [][]|\TU/lmr/m/n/12 Python +[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 [][]|\TU/lmr/m/n/12 Dual dependency[]
  []
 
 
-Overfull \hbox (9.4064pt too wide) in paragraph at lines 577--590
+Overfull \hbox (9.4064pt too wide) in paragraph at lines 583--596
  [][][][] 
  []
 
@@ -2784,142 +3395,144 @@ File: figures/Technology-Stack-Performance-Hierarchy.png Graphic file (type bmp
 <figures/Technology-Stack-Performance-Hierarchy.png>
 
 
-[99]
-Overfull \hbox (0.1583pt too wide) in paragraph at lines 603--604
+[100]
+Overfull \hbox (0.1583pt too wide) in paragraph at lines 611--612
 [][]\TU/lmr/bx/n/12 Enterprise Capabilities: \TU/lmr/m/n/12 Comprehensive frame
 work with production optimiza-[]
  []
 
 
-Overfull \hbox (2.76233pt too wide) in paragraph at lines 618--619
+Overfull \hbox (2.76233pt too wide) in paragraph at lines 626--627
 [][]\TU/lmr/bx/n/12 pipenv Overhead: \TU/lmr/m/n/12 18.2 seconds per complexity
  point (dual dependency penalty) []
  []
 
 
 
-[100]
-Overfull \hbox (22.2223pt too wide) in paragraph at lines 638--639
+[101]
+Overfull \hbox (22.2223pt too wide) in paragraph at lines 646--647
 []\TU/lmr/m/n/12 Definitive separation of configuration-driven performance char
 acteristics from methodology-[]
  []
 
 
 
-[101]
-Overfull \hbox (2.4983pt too wide) in paragraph at lines 682--683
+[102]
+Overfull \hbox (2.4983pt too wide) in paragraph at lines 690--691
 [][]\TU/lmr/bx/n/12 Audit Trail Generation: \TU/lmr/m/n/12 Comprehensive loggin
 g with operational transparency []
  []
 
 
 
-[102]
-Overfull \hbox (2.33028pt too wide) in paragraph at lines 750--751
+[103]
+Overfull \hbox (2.33028pt too wide) in paragraph at lines 758--759
 []\TU/lmr/m/n/12 for optimization priorities while maintaining honest assessmen
 t of methodology-inherent[]
  []
 
 
-
-[103]
-Underfull \hbox (badness 10000) in paragraph at lines 774--774
-[][]|\TU/lmr/bx/n/12 Recommended[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 774--775
-[][]|\TU/lmr/bx/n/12 Implementation[]
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 776--776
-[][]|\TU/lmr/m/n/12 Small (< 10[]
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 776--776
-[][]|\TU/lmr/m/n/12 2.3x build speed,[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
-[]\TU/lmr/m/n/12 operational sim-[]
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 776--776
-[]\TU/lmr/m/n/12 plicity, immediate[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
-[][]|\TU/lmr/m/n/12 Authentication opti-[]
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 778--778
-[][]|\TU/lmr/m/n/12 Medium (10-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 778--778
-[][]|\TU/lmr/m/n/12 Hybrid Architec-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 778--778
-[][]|\TU/lmr/m/n/12 Zero-overhead in-[]
- []
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 778--778
-[]\TU/lmr/m/n/12 optimization, risk[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--780
-[][]|\TU/lmr/m/n/12 Large (50+[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--780
-[][]|\TU/lmr/m/n/12 100% automation[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--780
-[]\TU/lmr/m/n/12 ROI, operational[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--780
-[]\TU/lmr/m/n/12 scalability, com-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
-[][]|\TU/lmr/m/n/12 Enterprise transfor-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
-[][]|\TU/lmr/m/n/12 Mission-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
-[]\TU/lmr/m/n/12 self-healing, 24/7[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
-[][]|\TU/lmr/m/n/12 Operational excel-[]
- []
+LaTeX Warning: Hyper reference `enterprise_technology_adoption' on page 104 und
+efined on input line 763.
 
 
 
 [104]
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[][]|\TU/lmr/bx/n/12 Recommended[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+[][]|\TU/lmr/bx/n/12 Implementation[]
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 784--784
+[][]|\TU/lmr/m/n/12 Small (< 10[]
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 784--784
+[][]|\TU/lmr/m/n/12 2.3x build speed,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
+[]\TU/lmr/m/n/12 operational sim-[]
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 784--784
+[]\TU/lmr/m/n/12 plicity, immediate[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
+[][]|\TU/lmr/m/n/12 Authentication opti-[]
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 786--786
+[][]|\TU/lmr/m/n/12 Medium (10-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[][]|\TU/lmr/m/n/12 Hybrid Architec-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[][]|\TU/lmr/m/n/12 Zero-overhead in-[]
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 786--786
+[]\TU/lmr/m/n/12 optimization, risk[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--788
+[][]|\TU/lmr/m/n/12 Large (50+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--788
+[][]|\TU/lmr/m/n/12 100% automation[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--788
+[]\TU/lmr/m/n/12 ROI, operational[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--788
+[]\TU/lmr/m/n/12 scalability, com-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
+[][]|\TU/lmr/m/n/12 Enterprise transfor-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--790
+[][]|\TU/lmr/m/n/12 Mission-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--790
+[]\TU/lmr/m/n/12 self-healing, 24/7[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
+[][]|\TU/lmr/m/n/12 Operational excel-[]
+ []
+
+
 
 [105]
 
@@ -2928,17 +3541,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 782--783
 [107]
 
 [108]
-Overfull \hbox (11.2343pt too wide) in paragraph at lines 960--961
+Overfull \hbox (11.2343pt too wide) in paragraph at lines 968--969
 [][]\TU/lmr/bx/n/12 Performance Monitoring: \TU/lmr/m/n/12 Cross-methodology vi
 sibility with optimization track-[]
  []
 
 
 
-[109]) (chapters/07-conclusion.tex
+[109]
 
-[110]
+[110]) (chapters/07-conclusion.tex
+
+[111]
 Chapter 7.
+
+LaTeX Warning: Hyper reference `empirical_software_engineering' on page 112 und
+efined on input line 9.
+
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 112 undefined on 
+input line 9.
+
+
+LaTeX Warning: Hyper reference `microservices_patterns' on page 112 undefined o
+n input line 9.
+
+
+LaTeX Warning: Hyper reference `evidence_based_software_engineering' on page 11
+2 undefined on input line 14.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
 [][]|\TU/lmr/bx/n/12 Performance[]
@@ -3021,7 +3652,7 @@ Overfull \hbox (23.63278pt too wide) in paragraph at lines 20--35
 
 
 
-[111
+[112
 
 ]
 Overfull \hbox (13.01831pt too wide) in paragraph at lines 39--40
@@ -3030,21 +3661,61 @@ tion service configuration (bcrypt[]
  []
 
 
+LaTeX Warning: Hyper reference `beetz2021gitops' on page 113 undefined on input
+ line 41.
+
+
+LaTeX Warning: Hyper reference `fenton2014software' on page 113 undefined on in
+put line 45.
+
+
+LaTeX Warning: Hyper reference `experimental_design' on page 113 undefined on i
+nput line 50.
+
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 113 undefined on 
+input line 53.
+
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 113 undefined on 
+input line 54.
+
+
+LaTeX Warning: Hyper reference `research_validity_framework' on page 113 undefi
+ned on input line 60.
+
+
 Overfull \hbox (4.04597pt too wide) in paragraph at lines 62--62
 [][]\TU/lmr/bx/n/17.28 Contributions to Software Engineering Research []
  []
 
 
+LaTeX Warning: Hyper reference `empirical_software_engineering' on page 113 und
+efined on input line 65.
 
-[112]
+
+
+[113]
 Overfull \hbox (9.04631pt too wide) in paragraph at lines 72--73
 [][]\TU/lmr/bx/n/12 Performance Attribution Model: \TU/lmr/m/n/12 Systematic se
 paration of methodology-inherent[]
  []
 
 
+LaTeX Warning: Hyper reference `enterprise_technology_adoption' on page 114 und
+efined on input line 74.
 
-[113]
+
+LaTeX Warning: Hyper reference `cohen1988statistical' on page 114 undefined on 
+input line 76.
+
+
+LaTeX Warning: Hyper reference `strategic_technology_planning' on page 114 unde
+fined on input line 94.
+
+
+
+[114]
 Overfull \hbox (6.6362pt too wide) in paragraph at lines 107--107
 [][]|\TU/lmr/bx/n/12 Recommended[]
  []
@@ -3146,13 +3817,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
 
 
-[114]
+[115]
 
-[115]) (chapters/appendices.tex
+LaTeX Warning: Hyper reference `bcrypt_performance' on page 116 undefined on in
+put line 137.
+
+
+LaTeX Warning: Hyper reference `enterprise_scale_challenges' on page 116 undefi
+ned on input line 159.
+
+
 
 [116]
 
+LaTeX Warning: Hyper reference `polyglot2022' on page 117 undefined on input li
+ne 165.
+
+
+LaTeX Warning: Hyper reference `longitudinal_studies' on page 117 undefined on 
+input line 170.
+
+
+LaTeX Warning: Hyper reference `compliance_frameworks' on page 117 undefined on
+ input line 172.
+
+
+LaTeX Warning: Hyper reference `extreme_load_scenarios' on page 117 undefined o
+n input line 174.
+
+
+LaTeX Warning: Hyper reference `organizational_case_studies' on page 117 undefi
+ned on input line 181.
+
+
+LaTeX Warning: Hyper reference `security_evaluation' on page 117 undefined on i
+nput line 183.
+
+
+
 [117]
+
+LaTeX Warning: Hyper reference `tco_analysis' on page 118 undefined on input li
+ne 185.
+
+
+LaTeX Warning: Hyper reference `serverless_computing' on page 118 undefined on 
+input line 197.
+
+
+Overfull \hbox (3.36229pt too wide) in paragraph at lines 202--203
+[][]\TU/lmr/m/n/12 What monitoring and observability patterns best support GitO
+ps-managed server-[]
+ []
+
+
+Overfull \hbox (1.07831pt too wide) in paragraph at lines 203--204
+[][]\TU/lmr/m/n/12 How do cost optimization strategies differ between GitOps an
+d Traditional CI/CD[]
+ []
+
+
+LaTeX Warning: Hyper reference `edge_computing' on page 118 undefined on input 
+line 206.
+
+
+
+[118]
+
+LaTeX Warning: Hyper reference `devsecops' on page 119 undefined on input line 
+215.
+
+
+Overfull \hbox (13.50229pt too wide) in paragraph at lines 220--221
+[][]\TU/lmr/m/n/12 Zero-trust security architecture patterns optimized for diff
+erent deployment method-[]
+ []
+
+
+LaTeX Warning: Hyper reference `chaos_engineering' on page 119 undefined on inp
+ut line 236.
+
+
+Overfull \hbox (18.87192pt too wide) in paragraph at lines 238--239
+[][]\TU/lmr/m/n/12 Comparative resilience analysis under network failures, reso
+urce exhaustion, database[]
+ []
+
+
+
+[119]
+
+LaTeX Warning: Hyper reference `quantum_computing' on page 120 undefined on inp
+ut line 245.
+
+
+LaTeX Warning: Hyper reference `compliance_frameworks' on page 120 undefined on
+ input line 257.
+
+
+LaTeX Warning: Hyper reference `data_sovereignty' on page 120 undefined on inpu
+t line 266.
+
+
+Overfull \hbox (1.8143pt too wide) in paragraph at lines 266--267
+[][]\TU/lmr/bx/n/12 Multi-National Deployment Patterns: \TU/lmr/m/n/12 Global d
+eployment strategies with \TU/lmr/bx/n/12 data[]
+ []
+
+
+
+[120]
+
+LaTeX Warning: Hyper reference `green_computing' on page 121 undefined on input
+ line 275.
+
+
+LaTeX Warning: Hyper reference `strategic_technology_planning' on page 121 unde
+fined on input line 287.
+
+
+
+[121]
+
+LaTeX Warning: Hyper reference `beetz2021gitops' on page 122 undefined on input
+ line 300.
+
+
+LaTeX Warning: Hyper reference `fowler2013continuous' on page 122 undefined on 
+input line 300.
+
+
+LaTeX Warning: Hyper reference `kim2016devops' on page 122 undefined on input l
+ine 300.
+
+) (chapters/appendices.tex
+
+[122]
 Appendix A.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
@@ -3246,7 +4046,7 @@ Underfull \hbox (badness 8019) in paragraph at lines 55--56
 
 
 
-[118
+[123
 
 ]
 Underfull \hbox (badness 7133) in paragraph at lines 69--69
@@ -3405,7 +4205,7 @@ Overfull \hbox (23.63278pt too wide) in paragraph at lines 83--94
 
 
 
-[119]
+[124]
 Appendix B.
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--110
@@ -3544,29 +4344,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--160
 
 
 
-[120
+[125
 
-])
+]) (bibliography.tex
 
-[121] (main.aux)
+[126]
+
+[127
+
+]
+! Misplaced alignment tab character &.
+<argument> Springer Science &
+                              Business Media
+l.42 \printbibliography[title=References]
+                                         
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package biblatex Warning: No driver for 'rfc'.
+(biblatex)                Using fallback driver on input line 42.
+
+! Misplaced alignment tab character &.
+<argument> Computers &
+                       Security
+l.42 \printbibliography[title=References]
+                                         
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+
+[128])
+
+[129] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3EDBA379F559A4B1CAD8FAB9535B90BC;42191.
+(rerunfilecheck)             Checksum: 181B1D30F8433A76BDB1F8A674357FC3;43355.
+
+Package biblatex Warning: Please rerun LaTeX.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 19695 strings out of 403264
- 403166 string characters out of 5461830
- 1031758 words of memory out of 5000000
- 47752 multiletter control sequences out of 15000+600000
- 635341 words of font info for 106 fonts, out of 8000000 for 9000
+ 27162 strings out of 403264
+ 556863 string characters out of 5461830
+ 1439469 words of memory out of 5000000
+ 55157 multiletter control sequences out of 15000+600000
+ 635349 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,12n,92p,1163b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 82i,12n,92p,1163b,5563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (133 pages).
+Output written on main.pdf (141 pages).
